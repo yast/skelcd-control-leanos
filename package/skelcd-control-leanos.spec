@@ -91,7 +91,7 @@ Url:            https://github.com/yast/skelcd-control-leanos
 AutoReqProv:    off
 Version:        15.0.0
 Release:        0
-Summary:        leanos control file needed for installation
+Summary:        Leanos control file needed for installation
 License:        MIT
 Group:          Metapackages
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
