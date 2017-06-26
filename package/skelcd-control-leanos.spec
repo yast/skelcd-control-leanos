@@ -89,7 +89,7 @@ Requires:       yast2-vm
 
 Url:            https://github.com/yast/skelcd-control-leanos
 AutoReqProv:    off
-Version:        15.0.0
+Version:        15.0.1
 Release:        0
 Summary:        Leanos control file needed for installation
 License:        MIT
@@ -114,8 +114,8 @@ make -C control check
 #
 # Add control file 
 #
-mkdir -p $RPM_BUILD_ROOT/CD1
-install -m 644 control/control.leanos.xml $RPM_BUILD_ROOT/CD1/control.xml
+mkdir -p $RPM_BUILD_ROOT/usr/lib/skelcd/CD1
+install -m 644 control/control.leanos.xml $RPM_BUILD_ROOT/usr/lib/skelcd/CD1//control.xml
 
 # install LICENSE (required by build service check)
 mkdir -p $RPM_BUILD_ROOT/%{_prefix}/share/doc/packages/%{name}
