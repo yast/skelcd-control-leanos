@@ -19,8 +19,6 @@ textdomain="control"
         <write_hostname_to_hosts config:type="boolean">false</write_hostname_to_hosts>
         <!-- bnc#870896, see /etc/sysconfig/network/dhcp:DHCLIENT_SET_HOSTNAME -->
         <dhclient_set_hostname config:type="boolean">true</dhclient_set_hostname>
-        <!-- FATE #307555, see /etc/sysconfig/boot:RUN_PARALLEL -->
-        <run_init_scripts_in_parallel config:type="boolean">false</run_init_scripts_in_parallel>
 
         <incomplete_translation_treshold>95</incomplete_translation_treshold>
         <inform_about_suboptimal_distribution config:type="boolean">true</inform_about_suboptimal_distribution>
@@ -28,12 +26,7 @@ textdomain="control"
         <ui_mode>expert</ui_mode>
         <displaymanager_shutdown>root</displaymanager_shutdown>
         <enable_clone config:type="boolean">true</enable_clone>
-        <enable_register_hwdata config:type="boolean">true</enable_register_hwdata>
-        <enable_register_optional config:type="boolean">true</enable_register_optional>
-        <display_register_forcereg config:type="boolean">true</display_register_forcereg>
-        <disable_register_w3m config:type="boolean">false</disable_register_w3m>
         <disable_os_prober config:type="boolean">true</disable_os_prober>
-        <register_monthly config:type="boolean">true</register_monthly>
         <manual_online_update config:type="boolean">true</manual_online_update>
         <root_password_ca_check config:type="boolean">true</root_password_ca_check>
 
@@ -54,9 +47,6 @@ textdomain="control"
 
         <!-- FATE: #304865: Enhance YaST Modules to cooperate better handling the product licenses -->
         <base_product_license_directory>/etc/YaST2/licenses/base/</base_product_license_directory>
-
-        <!-- #303798: YaST2 runlevel editor: offer easy enablement and configuration of runlevel 4 -->
-        <rle_offer_rulevel_4 config:type="boolean">true</rle_offer_rulevel_4>
 
         <!-- FATE: #303893: Default to enabled kdump -->
         <enable_kdump config:type="boolean">true</enable_kdump>
@@ -85,13 +75,6 @@ textdomain="control"
     </globals>
 
     <software>
-        <!-- By default, unmaintained (old) packages are removed -->
-        <delete_old_packages config:type="boolean">true</delete_old_packages>
-        <!-- For SLES12, unmaintained (old) packages are not removed by default, FATE #301844, bugzilla #233156 -->
-        <delete_old_packages_reverse_list config:type="list">
-            <regexp_item>^SUSE (LINUX|Linux) Enterprise Server 12.*$</regexp_item>
-        </delete_old_packages_reverse_list>
-
         <!-- By default, packages can be downgraded -->
         <silently_downgrade_packages config:type="boolean">true</silently_downgrade_packages>
         <!-- For SLES12, packages are not downgraded, FATE #301990, bugzilla #238488 -->
