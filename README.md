@@ -23,8 +23,6 @@ an add-on can do. You can read more about the add-on installation.xml in
 
 But LeanOS is a product itself so apart of the control.xml file it also has its own installation.xml.
 
-Product selector in installator basically search for any product. Then for each product it try to
-find package that provides `system-installation() = <product_name>`. If such package does not exist,
-it removes product from selection. When product is selected, then coresponding package that
-provides system installation for given project is unpacked and its installation.xml is used
-to continue with installation.
+The product selector dialog in the installation displays all products for which exists a `system-installation() = <product_name>` provides dependency.
+When a product is selected then its corresponding package providing the system installation is unpacked
+and its `installation.xml` file is used to continue with the installation.
