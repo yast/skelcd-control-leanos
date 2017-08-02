@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Wed Aug  2 08:22:14 UTC 2017 - jreidinger@suse.com
+
+- add product selector client (FATE#323450)
+- allow to be used as separate product (FATE#323450)
+- 15.0.2
+
+-------------------------------------------------------------------
 Mon Jun 26 11:23:08 UTC 2017 - jsrain@suse.cz
 
 - fixed the path of the control file
