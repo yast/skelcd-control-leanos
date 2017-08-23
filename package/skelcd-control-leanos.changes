@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Wed Aug 23 12:39:12 UTC 2017 - lslezak@suse.cz
+
+- Remove the role selection dialog from the installation workflow
+  (bsc#1055071)
+- 15.0.3
+
+-------------------------------------------------------------------
 Wed Aug  2 08:22:14 UTC 2017 - jreidinger@suse.com
 
 - add product selector client (FATE#323450)
