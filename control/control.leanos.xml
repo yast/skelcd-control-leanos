@@ -474,6 +474,10 @@ Please visit us at http://www.suse.com/.
                     <name>update_installer</name>
                 </module>
                 <module>
+                    <label>Repositories Initialization</label>
+                    <name>repositories_initialization</name>
+                </module>
+                <module>
                     <name>complex_welcome</name>
                     <label>Welcome</label>
                     <enable_back>no</enable_back>
@@ -504,6 +508,12 @@ Please visit us at http://www.suse.com/.
                 <module>
                     <label>Product Selection</label>
                     <name>product_selector</name>
+                    <enable_back>yes</enable_back>
+                    <enable_next>yes</enable_next>
+                </module>
+                <module>
+                    <label>Product License</label>
+                    <name>product_license</name>
                     <enable_back>yes</enable_back>
                     <enable_next>yes</enable_next>
                 </module>

@@ -1,4 +1,13 @@
 -------------------------------------------------------------------
+Wed Aug 23 13:33:50 UTC 2017 - igonzalezsosa@suse.com
+
+- Add inst_repositories_initialization client in order to
+  initialize the repositories before presenting the welcome
+  screen (FATE#322276)
+- Show license after product selection (FATE#322276)
+- 15.0.4
+
+-------------------------------------------------------------------
 Wed Aug 23 12:39:12 UTC 2017 - lslezak@suse.cz
 
 - Remove the role selection dialog from the installation workflow
