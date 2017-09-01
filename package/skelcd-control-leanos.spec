@@ -78,6 +78,7 @@ Requires:       yast2-rdp
 #
 %ifarch s390 s390x
 Requires:       yast2-reipl >= 3.1.4
+Requires:       yast2-s390
 %endif
 
 %ifarch %ix86 x86_64
@@ -91,7 +92,7 @@ Provides:       system-installation() = leanos
 
 Url:            https://github.com/yast/skelcd-control-leanos
 AutoReqProv:    off
-Version:        15.0.4
+Version:        15.0.5
 Release:        0
 Summary:        Leanos control file needed for installation
 License:        MIT

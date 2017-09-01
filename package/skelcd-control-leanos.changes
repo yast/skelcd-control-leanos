@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Fri Sep  1 08:41:23 UTC 2017 - lslezak@suse.cz
+
+- Added yast2-s390 dependency to fix failed disk activation
+  (bsc#1055871)
+- 15.0.5
+
+-------------------------------------------------------------------
 Wed Aug 23 13:33:50 UTC 2017 - igonzalezsosa@suse.com
 
 - Add inst_repositories_initialization client in order to
