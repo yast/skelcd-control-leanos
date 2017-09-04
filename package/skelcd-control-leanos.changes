@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Mon Sep  4 08:59:00 UTC 2017 - igonzalezsosa@suse.com
+
+- Product selection now happens on the welcome screen (fate#322276)
+- 15.0.7 
+
+-------------------------------------------------------------------
 Fri Sep  1 09:02:43 UTC 2017 - gsouza@suse.com
 
 - Added complex welcome module to autoinstallation in order to

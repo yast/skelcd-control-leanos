@@ -488,6 +488,12 @@ Please visit us at http://www.suse.com/.
                     <retranslate config:type="boolean">true</retranslate>
                 </module>
                 <module>
+                    <label>Product License</label>
+                    <name>product_license</name>
+                    <enable_back>yes</enable_back>
+                    <enable_next>yes</enable_next>
+                </module>
+                <module>
                     <label>Network Activation</label>
                     <name>lan</name>
                     <enable_back>yes</enable_back>
@@ -502,18 +508,6 @@ Please visit us at http://www.suse.com/.
                 <module>
                     <label>System Analysis</label>
                     <name>system_analysis</name>
-                    <enable_back>yes</enable_back>
-                    <enable_next>yes</enable_next>
-                </module>
-                <module>
-                    <label>Product Selection</label>
-                    <name>product_selector</name>
-                    <enable_back>yes</enable_back>
-                    <enable_next>yes</enable_next>
-                </module>
-                <module>
-                    <label>Product License</label>
-                    <name>product_license</name>
                     <enable_back>yes</enable_back>
                     <enable_next>yes</enable_next>
                 </module>
