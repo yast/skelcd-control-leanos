@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Wed Sep 13 16:29:36 CEST 2017 - fcrozat@suse.com
+
+- Only try to install Minimal pattern, base pattern doesn't exist
+  in this product.
+- 15.0.8
+
+-------------------------------------------------------------------
 Mon Sep  4 08:59:00 UTC 2017 - igonzalezsosa@suse.com
 
 - Product selection now happens on the welcome screen (fate#322276)
