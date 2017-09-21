@@ -1,4 +1,12 @@
 -------------------------------------------------------------------
+Thu Sep 21 13:27:18 UTC 2017 - jreidinger@suse.com
+
+- drop installation.xml as it is no longer needed for leanos
+- Use default mechanism for select desktop based on installed
+  software with update-alternatives (bsc#1057538)
+- 15.0.9
+
+-------------------------------------------------------------------
 Wed Sep 13 16:29:36 CEST 2017 - fcrozat@suse.com
 
 - Only try to install Minimal pattern, base pattern doesn't exist
