@@ -111,7 +111,7 @@ textdomain="control"
         <supported_desktops config:type="list">
             <one_supported_desktop>
                 <name>gnome</name>
-                <desktop>sle-classic</desktop>
+                <desktop>default</desktop>
                 <label_id>dummy_desktop</label_id>
                 <logon>gdm</logon>
                 <cursor>DMZ</cursor>
@@ -127,7 +127,7 @@ textdomain="control"
 
             <one_supported_desktop>
                 <name>icewm</name>
-                <desktop>icewm</desktop>
+                <desktop>default</desktop>
                 <label_id>dummy_desktop</label_id>
                 <logon>gdm</logon>
                 <cursor>DMZ</cursor>
