@@ -103,8 +103,8 @@ textdomain="control"
         <!-- bnc#876760: Explicitly selecting these (optional) patterns by default if they exist -->
         <optional_default_patterns>32bit</optional_default_patterns>
 
-        # Do not define the default desktop in control file,
-        # use the update-alternatives approach instead
+        <!-- Do not define the default desktop in control file
+             use the update-alternatives approach instead -->
         <default_desktop></default_desktop>
 
         <!-- BNC #435479: Show support status in package details -->
