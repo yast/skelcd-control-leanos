@@ -1,5 +1,5 @@
 -------------------------------------------------------------------
-Thu Sep 21 13:27:18 UTC 2017 - jreidinger@suse.com
+Fri Sep 22 13:27:18 UTC 2017 - jreidinger@suse.com
 
 - drop installation.xml as it is no longer needed for leanos
 - Use default mechanism for select desktop based on installed
