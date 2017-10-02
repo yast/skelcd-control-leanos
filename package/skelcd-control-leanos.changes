@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Mon Oct  2 14:50:28 UTC 2017 - mfilka@suse.com
+
+- fate#323450
+  - adapted autoinstall workflow - splited product dependent part
+- 15.0.10
+
+-------------------------------------------------------------------
 Fri Sep 22 08:14:41 UTC 2017 - jreidinger@suse.com
 
 - add work-around when default desktop is unselected. Real fix is

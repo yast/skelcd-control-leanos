@@ -92,7 +92,7 @@ Provides:       system-installation() = leanos
 
 Url:            https://github.com/yast/skelcd-control-leanos
 AutoReqProv:    off
-Version:        15.0.9
+Version:        15.0.10
 Release:        0
 Summary:        Leanos control file needed for installation
 License:        MIT
