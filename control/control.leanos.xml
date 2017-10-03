@@ -670,47 +670,6 @@ Please visit us at http://www.suse.com/.
                     <label>AutoYaST Settings</label>
                     <name>autosetup</name>
                 </module>
-                <module>
-                    <label>AutoYaST Settings</label>
-                    <name>initial_autoinstallation_proposal</name>
-                    <execute>inst_proposal</execute>
-                    <proposal>initial</proposal>
-                    <enable_back>no</enable_back>
-                    <enable_next>yes</enable_next>
-                </module>
-                <!-- FATE #303860: Provide consistent progress during installation -->
-                <module>
-                    <label>Perform Installation</label>
-                    <name>prepareprogress</name>
-                </module>
-                <module>
-                    <label>Perform Installation</label>
-                    <name>prepdisk</name>
-                </module>
-                <!-- Clean up the inst-sys to have more free RAM on low memory systems -->
-                <!-- Note: Needs to be call *after* the partitioning step as it might delete
-                the file system or storage kernel modules from inst-sys. They need to be already
-                loaded and active. -->
-                <module>
-                    <label>Installer Cleanup</label>
-                    <name>instsys_cleanup</name>
-                </module>
-                <module>
-                    <label>Perform Installation</label>
-                    <name>kickoff</name>
-                </module>
-                <module>
-                    <label>Perform Installation</label>
-                    <name>autoimage</name>
-                </module>
-                <module>
-                    <label>Perform Installation</label>
-                    <name>rpmcopy</name>
-                </module>
-                <module>
-                    <label>Perform Installation</label>
-                    <name>finish</name>
-                </module>
             </modules>
         </workflow>
 
