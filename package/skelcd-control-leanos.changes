@@ -1,9 +1,23 @@
 -------------------------------------------------------------------
-Fri Sep 22 13:27:18 UTC 2017 - jreidinger@suse.com
+Mon Oct  2 15:27:18 UTC 2017 - jreidinger@suse.com
 
 - drop installation.xml as it is no longer needed for leanos
 - Use default mechanism for select desktop based on installed
   software with update-alternatives (bsc#1057538)
+- 15.0.12
+
+-------------------------------------------------------------------
+Mon Oct  2 14:50:28 UTC 2017 - mfilka@suse.com
+
+- fate#323450
+  - adapted autoinstall workflow - splited product dependent part
+- 15.0.11
+
+-------------------------------------------------------------------
+Mon Oct  2 13:34:02 UTC 2017 - lslezak@suse.cz
+
+- Add SCC/SMT upgrade repositories in the upgrade workflow
+  (fate#323163)
 - 15.0.10
 
 -------------------------------------------------------------------
