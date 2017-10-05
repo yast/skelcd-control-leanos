@@ -90,7 +90,7 @@ Requires:       yast2-vm
 
 Url:            https://github.com/yast/skelcd-control-leanos
 AutoReqProv:    off
-Version:        15.0.12
+Version:        15.0.13
 Release:        0
 Summary:        Leanos control file needed for installation
 License:        MIT

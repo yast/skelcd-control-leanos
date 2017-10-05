@@ -1,9 +1,16 @@
 -------------------------------------------------------------------
-Mon Oct  2 15:27:18 UTC 2017 - jreidinger@suse.com
+Thu Oct  5 11:59:25 UTC 2017 - jreidinger@suse.com
 
 - drop installation.xml as it is no longer needed for leanos
 - Use default mechanism for select desktop based on installed
   software with update-alternatives (bsc#1057538)
+- 15.0.13
+
+-------------------------------------------------------------------
+Thu Oct  5 10:59:25 UTC 2017 - fcrozat@suse.com
+
+- Update for new patterns
+  - Minimal is replaced by minimal_base and base
 - 15.0.12
 
 -------------------------------------------------------------------
