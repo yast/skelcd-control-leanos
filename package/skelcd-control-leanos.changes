@@ -1,4 +1,12 @@
 -------------------------------------------------------------------
+Thu Oct  5 11:59:25 UTC 2017 - jreidinger@suse.com
+
+- drop installation.xml as it is no longer needed for leanos
+- Use default mechanism for select desktop based on installed
+  software with update-alternatives (bsc#1057538)
+- 15.0.13
+
+-------------------------------------------------------------------
 Thu Oct  5 10:59:25 UTC 2017 - fcrozat@suse.com
 
 - Update for new patterns
@@ -37,7 +45,7 @@ Wed Sep 13 16:29:36 CEST 2017 - fcrozat@suse.com
 Mon Sep  4 08:59:00 UTC 2017 - igonzalezsosa@suse.com
 
 - Product selection now happens on the welcome screen (fate#322276)
-- 15.0.7 
+- 15.0.7
 
 -------------------------------------------------------------------
 Fri Sep  1 09:02:43 UTC 2017 - gsouza@suse.com
