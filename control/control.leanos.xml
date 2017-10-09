@@ -99,7 +99,7 @@ textdomain="control"
 
         <!-- bnc#875350: Explicitly selecting these patterns by default -->
         <!-- For a list of patterns, see https://build.suse.de/package/view_file/SUSE:SLE-12-SP1:GA/patterns-sles/patterns-sles.spec?expand=1 -->
-        <default_patterns>base minimal_base</default_patterns>
+        <default_patterns>minimal_base</default_patterns>
         <!-- bnc#876760: Explicitly selecting these (optional) patterns by default if they exist -->
         <optional_default_patterns>32bit</optional_default_patterns>
 
