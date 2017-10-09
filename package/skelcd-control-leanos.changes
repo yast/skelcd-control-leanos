@@ -2,7 +2,7 @@
 Mon Oct  9 11:27:00 UTC 2017 - jsrain@suse.cz
 
 - minimal role only requires the minimal_base pattern (bsc#1049297)
-- 13.0.15
+- 15.0.15
 
 -------------------------------------------------------------------
 Mon Oct  9 07:37:47 UTC 2017 - jsrain@suse.cz
