@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Wed Oct 25 13:18:01 CEST 2017 - snwint@suse.de
+
+- add sap-installation-wizard (fate#323792)
+- 15.0.17
+
+-------------------------------------------------------------------
 Wed Oct 11 11:49:10 UTC 2017 - jreidinger@suse.com
 
 - define self-update ID as media is multi-product one
