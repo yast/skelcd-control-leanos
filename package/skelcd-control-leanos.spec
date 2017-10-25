@@ -85,6 +85,10 @@ Requires:       yast2-s390
 Requires:       yast2-vm
 %endif
 
+%ifarch x86_64 ppc64le
+Requires:       sap-installation-wizard
+%endif
+
 #
 ######################################################################
 
