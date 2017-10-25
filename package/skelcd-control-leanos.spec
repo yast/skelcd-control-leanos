@@ -85,12 +85,16 @@ Requires:       yast2-s390
 Requires:       yast2-vm
 %endif
 
+%ifarch x86_64 ppc64le
+Requires:       sap-installation-wizard
+%endif
+
 #
 ######################################################################
 
 Url:            https://github.com/yast/skelcd-control-leanos
 AutoReqProv:    off
-Version:        15.0.16
+Version:        15.0.17
 Release:        0
 Summary:        Leanos control file needed for installation
 License:        MIT
