@@ -219,7 +219,7 @@ Please visit us at http://www.suse.com/.
                     <presentation_order>75</presentation_order>
                 </proposal_module>
                 <proposal_module>
-                    <name>firewall_stage1</name>
+                    <name>firewall</name>
                     <presentation_order>50</presentation_order>
                 </proposal_module>
                 <!-- Fate #319624 - proposal and dialog for existing SSH host keys -->
