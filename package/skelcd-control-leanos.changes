@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Tue Oct 31 15:14:27 UTC 2017 - mvidner@suse.com
+
+- Upgrading from SLES, SLED, SLE4SAP is supported (FATE#323163).
+- 15.0.18
+
+-------------------------------------------------------------------
 Wed Oct 25 13:18:01 CEST 2017 - snwint@suse.de
 
 - add sap-installation-wizard (fate#323792)
