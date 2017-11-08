@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Wed Nov  8 17:22:12 UTC 2017 - knut.anderssen@suse.com
+
+- Use of the new firewall proposal also in s390 arch (bsc#1067180)
+- 15.0.20
+
+-------------------------------------------------------------------
 Tue Nov 02 08:31:37 UTC 2017 - knut.anderssen@suse.com
 
 - Unification of firewall proposals (fate#323460)
