@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Fri Dec  1 16:00:12 CET 2017 - schubi@suse.de
+
+- AutoYaST installation: Adding DriverUpdate repo via module
+  repositories_initialization. (bnc#1070804)
+- 15.0.21
+
+-------------------------------------------------------------------
 Wed Nov  8 17:22:12 UTC 2017 - knut.anderssen@suse.com
 
 - Use of the new firewall proposal also in s390 arch (bsc#1067180)

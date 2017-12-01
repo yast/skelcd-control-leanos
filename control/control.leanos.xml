@@ -618,6 +618,10 @@ Please visit us at http://www.suse.com/.
                 <!-- bsc#1047060: Module used only to display a beta warning in case README.BETA
                 file exists. Other than that, the module is completely skipped in auto mode -->
                 <module>
+                    <label>Repositories Initialization</label>
+                    <name>repositories_initialization</name>
+                </module>
+                <module>
                     <name>complex_welcome</name>
                     <label>Welcome</label>
                     <enable_back>no</enable_back>
