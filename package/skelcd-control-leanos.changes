@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Thu Jan  4 16:39:33 UTC 2018 - lslezak@suse.cz
+
+- Pattern "gnome-basic" has been renamed to "gnome_basic"
+  (bsc#1069728)
+- 15.0.22
+
+-------------------------------------------------------------------
 Fri Dec  1 16:00:12 CET 2017 - schubi@suse.de
 
 - AutoYaST installation: Adding DriverUpdate repo via module
