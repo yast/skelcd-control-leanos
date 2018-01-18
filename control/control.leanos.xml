@@ -541,6 +541,12 @@ Please visit us at http://www.suse.com/.
                     <enable_next>yes</enable_next>
                 </module>
                 <module>
+                    <label>Product License</label>
+                    <name>product_upgrade_license</name>
+                    <enable_back>yes</enable_back>
+                    <enable_next>yes</enable_next>
+                </module>
+                <module>
                     <name>upgrade_urls</name>
                     <enable_back>yes</enable_back>
                 </module>

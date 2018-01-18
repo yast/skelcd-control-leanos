@@ -60,6 +60,8 @@ Requires:       yast2-multipath
 Requires:       yast2-network >= 3.1.42
 Requires:       yast2-nfs-client
 Requires:       yast2-ntp-client
+# clients/inst_product_upgrade_license.rb
+Requires:       yast2-packager >= 4.0.29
 Requires:       yast2-proxy
 Requires:       yast2-services-manager
 Requires:       yast2-configuration-management
@@ -94,7 +96,7 @@ Requires:       sap-installation-wizard
 
 Url:            https://github.com/yast/skelcd-control-leanos
 AutoReqProv:    off
-Version:        15.0.23
+Version:        15.0.24
 Release:        0
 Summary:        Leanos control file needed for installation
 License:        MIT
