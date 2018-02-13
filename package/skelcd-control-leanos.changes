@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Tue Feb 13 10:32:07 CET 2018 - schubi@suse.de
+
+- Adding tftp-server to clone_modules section in order to export
+  settings correctly. (Founded out while testing bnc#1080557)
+- 15.0.26
+
+-------------------------------------------------------------------
 Thu Jan 25 12:43:02 UTC 2018 - jsrain@suse.cz
 
 - always use 'zypper dup' equivalent when doing upgrade
