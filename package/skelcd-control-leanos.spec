@@ -41,7 +41,7 @@ BuildRequires:  yast2-installation-control >= 4.0.1
 
 # leanos specific Yast packages needed in the inst-sys
 # to provide the functionality needed by this control file
-Requires:       yast2-registration
+Requires:       yast2-registration >= 4.0.26
 Requires:       yast2-theme-SLE
 
 # Generic Yast packages needed for the installer
@@ -96,7 +96,7 @@ Requires:       sap-installation-wizard
 
 Url:            https://github.com/yast/skelcd-control-leanos
 AutoReqProv:    off
-Version:        15.0.27
+Version:        15.0.28
 Release:        0
 Summary:        Leanos control file needed for installation
 License:        MIT
