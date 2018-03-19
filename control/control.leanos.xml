@@ -546,7 +546,7 @@ Please visit us at http://www.suse.com/.
                     <enable_back>yes</enable_back>
                 </module>
                 <module>
-                    <name>migration_repos</name>
+                    <name>offline_migration</name>
                     <enable_back>yes</enable_back>
                 </module>
                 <module>
