@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Fri Apr 27 04:33:30 UTC 2018 - jreidinger@suse.com
+
+- Do not modify cio_ignore kernel parameter during upgrade
+  (bsc#1090213)
+- 15.0.29
+
+-------------------------------------------------------------------
 Fri Mar 16 18:41:53 UTC 2018 - lslezak@suse.cz
 
 - Run the new offline migration client which correctly handles
