@@ -200,6 +200,10 @@ Please visit us at http://www.suse.com/.
                     <presentation_order>40</presentation_order>
                 </proposal_module>
                 <proposal_module>
+                    <name>network</name>
+                    <presentation_order>55</presentation_order>
+                </proposal_module>
+                <proposal_module>
                     <name>kdump</name>
                     <presentation_order>60</presentation_order>
                 </proposal_module>
@@ -250,6 +254,10 @@ Please visit us at http://www.suse.com/.
                 <proposal_module>
                     <name>bootloader</name>
                     <presentation_order>40</presentation_order>
+                </proposal_module>
+                <proposal_module>
+                    <name>network</name>
+                    <presentation_order>55</presentation_order>
                 </proposal_module>
                 <proposal_module>
                     <name>kdump</name>
