@@ -1,4 +1,14 @@
 -------------------------------------------------------------------
+Fri Oct 12 14:16:31 CEST 2018 - schubi@suse.de
+
+- Added tags full_system_media_name and full_system_download_url
+  in control.xml which describe the location for the
+  "all-packages" medium. This information will be shown if the
+  registration has been skipped by the user. No hint will be shown
+  if these tags have not been defined. (fate#325834)
+- 15.0.31  
+
+-------------------------------------------------------------------
 Wed Oct 10 11:56:55 UTC 2018 - knut.anderssen@suse.com
 
 - Add network to the installation proposal (fate#326480)
