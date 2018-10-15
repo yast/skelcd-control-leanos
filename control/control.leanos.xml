@@ -75,7 +75,7 @@ textdomain="control"
 	<!-- self-update ID. SCC recognize for SLE15 ID SLES -->
 	<self_update_id>SLES</self_update_id>
 
-	<!-- Information about requried media if the user has skipped the registration -->
+	<!-- Information about required media if the user has skipped the registration -->
 	<full_system_media_name>SLE-15-Packages</full_system_media_name>
 	<full_system_download_url>https://download.suse.com</full_system_download_url>
 
