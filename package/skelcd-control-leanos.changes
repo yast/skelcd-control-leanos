@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Wed Nov 21 14:24:29 UTC 2018 - lslezak@suse.cz
+
+- Updated the self update repository fallback URL to use the
+  SLE15-SP1 repository instead of the SLE15-GA (bsc#1116916)
+- 15.1.0
+
+-------------------------------------------------------------------
 Fri Oct 12 14:16:31 CEST 2018 - schubi@suse.de
 
 - Added tags full_system_media_name and full_system_download_url

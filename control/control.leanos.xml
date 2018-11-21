@@ -71,7 +71,7 @@ textdomain="control"
         </services_proposal>
 
 	<!-- self-update URL -->
-	<self_update_url>https://updates.suse.com/SUSE/Updates/SLE-INSTALLER/15/$arch/update</self_update_url>
+	<self_update_url>https://updates.suse.com/SUSE/Updates/SLE-INSTALLER/15-SP1/$arch/update</self_update_url>
 	<!-- self-update ID. SCC recognize for SLE15 ID SLES -->
 	<self_update_id>SLES</self_update_id>
 
