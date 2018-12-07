@@ -74,6 +74,7 @@ textdomain="control"
 	<self_update_url>https://updates.suse.com/SUSE/Updates/SLE-INSTALLER/15-SP1/$arch/update</self_update_url>
 	<!-- self-update ID. SCC recognize for SLE15 ID SLES -->
 	<self_update_id>SLES</self_update_id>
+	<self_update_version>15</self_update_version>
 
 	<!-- Information about required media if the user has skipped the registration -->
 	<full_system_media_name>SLE-15-SP1-Packages</full_system_media_name>
