@@ -109,6 +109,9 @@ textdomain="control"
         <!-- BNC #435479: Show support status in package details -->
         <display_support_status config:type="boolean">true</display_support_status>
 
+        <!-- Disable the CD/DVD installation medium after finishing the installation (jsc#SLE-3191) -->
+        <disable_media_repo config:type="boolean">true</disable_media_repo>
+
         <!-- handling software proposal during product upgrade -->
         <upgrade>
           <window_managers config:type="list">
