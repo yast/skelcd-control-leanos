@@ -46,7 +46,7 @@ textdomain="control"
         </save_instsys_content>
 
         <!-- FATE: #304865: Enhance YaST Modules to cooperate better handling the product licenses -->
-        <base_product_license_directory>/etc/YaST2/licenses/base/</base_product_license_directory>
+        <base_product_license_directory>/usr/share/licenses/product/base/</base_product_license_directory>
 
         <!-- FATE: #303893: Default to enabled kdump -->
         <enable_kdump config:type="boolean">true</enable_kdump>
