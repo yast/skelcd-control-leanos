@@ -76,7 +76,7 @@ textdomain="control"
 	<self_update_id>SLES</self_update_id>
 
 	<!-- Information about required media if the user has skipped the registration -->
-	<full_system_media_name>SLE-15-SP1-Packages</full_system_media_name>
+	<full_system_media_name>SLE-15-SP2-Packages</full_system_media_name>
 	<full_system_download_url>https://download.suse.com</full_system_download_url>
 
     </globals>
