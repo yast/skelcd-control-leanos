@@ -31,7 +31,7 @@ Name:           skelcd-control-leanos
 # xmllint (for validation)
 BuildRequires:  libxml2-tools
 # RNG validation schema
-BuildRequires:  yast2-installation-control >= 4.0.11
+BuildRequires:  yast2-installation-control >= 4.2.6
 
 ######################################################################
 #
@@ -60,8 +60,8 @@ Requires:       yast2-multipath
 Requires:       yast2-network >= 3.1.42
 Requires:       yast2-nfs-client
 Requires:       yast2-ntp-client
-# clients/inst_product_upgrade_license.rb
-Requires:       yast2-packager >= 4.0.29
+# online medium support
+Requires:       yast2-packager >= 4.2.27
 Requires:       yast2-proxy
 Requires:       yast2-services-manager
 Requires:       yast2-configuration-management
@@ -96,7 +96,7 @@ Requires:       sap-installation-wizard
 
 Url:            https://github.com/yast/skelcd-control-leanos
 AutoReqProv:    off
-Version:        15.1.4
+Version:        15.2.0
 Release:        0
 Summary:        Leanos control file needed for installation
 License:        MIT
