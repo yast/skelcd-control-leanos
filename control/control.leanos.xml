@@ -124,66 +124,69 @@ textdomain="control"
           </window_managers>
         </upgrade>
 
+        <!-- List of the base products used on the OnlineOnly installation medium,
+             in the future the products should be read directly from the registration
+             server (SCC), but that API has not been implemented yet. -->
         <base_products config:type="list">
           <base_product>
             <!-- hidden product -->
             <special_product config:type="boolean">true</special_product>
-            <label>SUSE Linux Enterprise Server 15 SP2 Business Critical Linux</label>
+            <display_name>SUSE Linux Enterprise Server 15 SP2 Business Critical Linux</display_name>
             <name>SLES_BCL</name>
             <version>15.2</version>
             <register_target>sle-15-$arch</register_target>
             <archs>x86_64</archs>
           </base_product>
           <base_product>
-            <label>SUSE Linux Enterprise Server 15 SP2</label>
+            <display_name>SUSE Linux Enterprise Server 15 SP2</display_name>
             <name>SLES</name>
             <version>15.2</version>
             <register_target>sle-15-$arch</register_target>
           </base_product>
           <base_product>
-            <label>SUSE Linux Enterprise High Performance Computing 15 SP2</label>
+            <display_name>SUSE Linux Enterprise High Performance Computing 15 SP2</display_name>
             <name>SLE_HPC</name>
             <version>15.2</version>
             <register_target>sle-15-$arch</register_target>
             <archs>aarch64,x86_64</archs>
           </base_product>
           <base_product>
-            <label>SUSE Linux Enterprise Real Time 15 SP2</label>
+            <display_name>SUSE Linux Enterprise Real Time 15 SP2</display_name>
             <name>SLE_RT</name>
             <version>15.2</version>
             <register_target>sle-15-$arch</register_target>
             <archs>x86_64</archs>
           </base_product>
           <base_product>
-            <label>SUSE Linux Enterprise Server for SAP Applications 15 SP2</label>
+            <display_name>SUSE Linux Enterprise Server for SAP Applications 15 SP2</display_name>
             <name>SLES_SAP</name>
             <version>15.2</version>
             <register_target>sle-15-$arch</register_target>
             <archs>ppc64le,x86_64</archs>
           </base_product>
           <base_product>
-            <label>SUSE Linux Enterprise Desktop 15 SP2</label>
+            <display_name>SUSE Linux Enterprise Desktop 15 SP2</display_name>
             <name>SLED</name>
             <version>15.2</version>
             <register_target>sle-15-$arch</register_target>
             <archs>x86_64</archs>
           </base_product>
           <base_product>
-            <label>SUSE Manager Server 4.0</label>
+            <display_name>SUSE Manager Server 4.0</display_name>
             <name>SUSE-Manager-Server</name>
             <version>4.0</version>
             <register_target>sle-15-$arch</register_target>
             <archs>ppc64le,s390x,x86_64</archs>
           </base_product>
           <base_product>
-            <label>SUSE Manager Proxy 4.0</label>
+            <display_name>SUSE Manager Proxy 4.0</display_name>
             <name>SUSE-Manager-Proxy</name>
             <version>4.0</version>
             <register_target>sle-15-$arch</register_target>
             <archs>x86_64</archs>
           </base_product>
           <base_product>
-            <label>SUSE Manager Retail Branch Server 4.0</label>
+            <display_name>SUSE Manager Retail Branch Server 4.0</display_name>
             <name>SUSE-Manager-Retail-Branch-Server</name>
             <version>4.0</version>
             <register_target>sle-15-$arch</register_target>
