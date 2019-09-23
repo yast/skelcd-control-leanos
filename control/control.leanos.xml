@@ -123,6 +123,76 @@ textdomain="control"
             </window_manager>
           </window_managers>
         </upgrade>
+
+        <!-- List of the base products used on the OnlineOnly installation medium,
+             in the future the products should be read directly from the registration
+             server (SCC), but that API has not been implemented yet. -->
+        <base_products config:type="list">
+          <base_product>
+            <!-- hidden product -->
+            <special_product config:type="boolean">true</special_product>
+            <display_name>SUSE Linux Enterprise Server 15 SP2 Business Critical Linux</display_name>
+            <name>SLES_BCL</name>
+            <version>15.2</version>
+            <register_target>sle-15-$arch</register_target>
+            <archs>x86_64</archs>
+          </base_product>
+          <base_product>
+            <display_name>SUSE Linux Enterprise Server 15 SP2</display_name>
+            <name>SLES</name>
+            <version>15.2</version>
+            <register_target>sle-15-$arch</register_target>
+          </base_product>
+          <base_product>
+            <display_name>SUSE Linux Enterprise High Performance Computing 15 SP2</display_name>
+            <name>SLE_HPC</name>
+            <version>15.2</version>
+            <register_target>sle-15-$arch</register_target>
+            <archs>aarch64,x86_64</archs>
+          </base_product>
+          <base_product>
+            <display_name>SUSE Linux Enterprise Real Time 15 SP2</display_name>
+            <name>SLE_RT</name>
+            <version>15.2</version>
+            <register_target>sle-15-$arch</register_target>
+            <archs>x86_64</archs>
+          </base_product>
+          <base_product>
+            <display_name>SUSE Linux Enterprise Server for SAP Applications 15 SP2</display_name>
+            <name>SLES_SAP</name>
+            <version>15.2</version>
+            <register_target>sle-15-$arch</register_target>
+            <archs>ppc64le,x86_64</archs>
+          </base_product>
+          <base_product>
+            <display_name>SUSE Linux Enterprise Desktop 15 SP2</display_name>
+            <name>SLED</name>
+            <version>15.2</version>
+            <register_target>sle-15-$arch</register_target>
+            <archs>x86_64</archs>
+          </base_product>
+          <base_product>
+            <display_name>SUSE Manager Server 4.0</display_name>
+            <name>SUSE-Manager-Server</name>
+            <version>4.0</version>
+            <register_target>sle-15-$arch</register_target>
+            <archs>ppc64le,s390x,x86_64</archs>
+          </base_product>
+          <base_product>
+            <display_name>SUSE Manager Proxy 4.0</display_name>
+            <name>SUSE-Manager-Proxy</name>
+            <version>4.0</version>
+            <register_target>sle-15-$arch</register_target>
+            <archs>x86_64</archs>
+          </base_product>
+          <base_product>
+            <display_name>SUSE Manager Retail Branch Server 4.0</display_name>
+            <name>SUSE-Manager-Retail-Branch-Server</name>
+            <version>4.0</version>
+            <register_target>sle-15-$arch</register_target>
+            <archs>x86_64</archs>
+          </base_product>
+        </base_products>
     </software>
 
     <network>
@@ -451,8 +521,12 @@ Please visit us at http://www.suse.com/.
                     <name>update_installer</name>
                 </module>
                 <module>
+                    <!-- skip on the Online installation medium, it is done later -->
                     <label>Repositories Initialization</label>
                     <name>repositories_initialization</name>
+                    <arguments>
+                        <skip>online</skip>
+                    </arguments>
                 </module>
                 <module>
                     <name>complex_welcome</name>
@@ -481,6 +555,24 @@ Please visit us at http://www.suse.com/.
                     <name>disks_activate</name>
                     <enable_back>yes</enable_back>
                     <enable_next>yes</enable_next>
+                </module>
+                <module>
+                    <!-- only on the Online installation medium -->
+                    <label>Registration</label>
+                    <name>scc</name>
+                    <enable_back>yes</enable_back>
+                    <enable_next>yes</enable_next>
+                    <arguments>
+                        <only>online</only>
+                    </arguments>
+                </module>
+                <module>
+                    <!-- only on the Online installation medium -->
+                    <label>Repositories Initialization</label>
+                    <name>repositories_initialization</name>
+                    <arguments>
+                        <only>online</only>
+                    </arguments>
                 </module>
                 <module>
                     <label>System Analysis</label>
