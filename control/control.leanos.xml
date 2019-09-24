@@ -71,7 +71,7 @@ textdomain="control"
         </services_proposal>
 
 	<!-- self-update URL -->
-	<self_update_url>https://updates.suse.com/SUSE/Updates/SLE-INSTALLER/15-SP1/$arch/update</self_update_url>
+	<self_update_url>https://updates.suse.com/SUSE/Updates/SLE-INSTALLER/15-SP2/$arch/update</self_update_url>
 	<!-- self-update ID. SCC recognize for SLE15 ID SLES -->
 	<self_update_id>SLES</self_update_id>
 
@@ -97,7 +97,7 @@ textdomain="control"
         <selection_type config:type="symbol">auto</selection_type>
 
         <!-- bnc#875350: Explicitly selecting these patterns by default -->
-        <!-- For a list of patterns, see https://build.suse.de/package/view_file/SUSE:SLE-12-SP1:GA/patterns-sles/patterns-sles.spec?expand=1 -->
+        <!-- For a list of patterns, see https://build.suse.de/package/view_file/SUSE:SLE-12-SP2:GA/patterns-sles/patterns-sles.spec?expand=1 -->
         <default_patterns>minimal_base</default_patterns>
         <!-- bnc#876760: Explicitly selecting these (optional) patterns by default if they exist -->
         <optional_default_patterns>32bit</optional_default_patterns>
@@ -172,23 +172,23 @@ textdomain="control"
             <archs>x86_64</archs>
           </base_product>
           <base_product>
-            <display_name>SUSE Manager Server 4.0</display_name>
+            <display_name>SUSE Manager Server 4.1</display_name>
             <name>SUSE-Manager-Server</name>
-            <version>4.0</version>
+            <version>4.1</version>
             <register_target>sle-15-$arch</register_target>
             <archs>ppc64le,s390x,x86_64</archs>
           </base_product>
           <base_product>
-            <display_name>SUSE Manager Proxy 4.0</display_name>
+            <display_name>SUSE Manager Proxy 4.1</display_name>
             <name>SUSE-Manager-Proxy</name>
-            <version>4.0</version>
+            <version>4.1</version>
             <register_target>sle-15-$arch</register_target>
             <archs>x86_64</archs>
           </base_product>
           <base_product>
-            <display_name>SUSE Manager Retail Branch Server 4.0</display_name>
+            <display_name>SUSE Manager Retail Branch Server 4.1</display_name>
             <name>SUSE-Manager-Retail-Branch-Server</name>
-            <version>4.0</version>
+            <version>4.1</version>
             <register_target>sle-15-$arch</register_target>
             <archs>x86_64</archs>
           </base_product>

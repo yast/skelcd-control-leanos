@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Tue Sep 24 06:59:14 UTC 2019 - jsrain@suse.cz
+
+- updated product list for on-line installation (jsc#SLE-7214)
+- fixed SP version for self-update URL
+- 15.2.1
+
+-------------------------------------------------------------------
 Fri Sep 20 19:01:07 UTC 2019 - Ladislav Slezák <lslezak@suse.cz>
 
 - Added base products for the online installation, adapted the
