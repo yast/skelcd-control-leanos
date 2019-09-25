@@ -521,11 +521,13 @@ Please visit us at http://www.suse.com/.
                     <name>update_installer</name>
                 </module>
                 <module>
-                    <!-- skip on the Online installation medium, it is done later -->
+                    <!-- skip on the Online and Offline installation medium, it is done later -->
+                    <!-- TODO: Remove this step completely once the old Installer and
+                      the non-bootable Packages DVD are dropped. -->
                     <label>Repositories Initialization</label>
                     <name>repositories_initialization</name>
                     <arguments>
-                        <skip>online</skip>
+                        <skip>online,offline</skip>
                     </arguments>
                 </module>
                 <module>
