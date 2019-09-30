@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Mon Sep 30 15:13:04 CEST 2019 - schubi@suse.de
+
+- Added "security" to "clone_module" section (bsc#1150821).
+- 15.2.3
+
+-------------------------------------------------------------------
+
 Fri Sep 27 14:40:55 UTC 2019 - Ladislav Slezák <lslezak@suse.cz>
 
 - Adapt the control file for the offline installation medium
