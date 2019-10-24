@@ -610,6 +610,9 @@ Please visit us at http://www.suse.com/.
                 <module>
                     <label>Repositories Initialization</label>
                     <name>repositories_initialization</name>
+                    <arguments>
+                        <skip>online,offline</skip>
+                    </arguments>
                 </module>
                 <module>
                     <name>complex_welcome</name>
@@ -646,6 +649,10 @@ Please visit us at http://www.suse.com/.
                     <enable_next>yes</enable_next>
                 </module>
                 <module>
+                    <name>offline_migration</name>
+                    <enable_back>yes</enable_back>
+                </module>
+		<module>
                     <label>Product License</label>
                     <name>product_upgrade_license</name>
                     <enable_back>yes</enable_back>
@@ -655,10 +662,7 @@ Please visit us at http://www.suse.com/.
                     <name>upgrade_urls</name>
                     <enable_back>yes</enable_back>
                 </module>
-                <module>
-                    <name>offline_migration</name>
-                    <enable_back>yes</enable_back>
-                </module>
+
                 <module>
                     <label>Add-On Products</label>
                     <name>add-on</name>
