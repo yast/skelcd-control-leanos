@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Mon Nov 25 11:24:01 UTC 2019 - Ladislav Slezák <lslezak@suse.cz>
+
+- The big SLE15-SP2 medium is called "Full"
+  (related to jsc#SLE-7101)
+- 15.2.8
+
+-------------------------------------------------------------------
 Thu Nov 21 09:25:58 UTC 2019 - David Diaz <dgonzalez@suse.com>
 
 - Remove the Real Time base product (jsc#SLE-7104).
