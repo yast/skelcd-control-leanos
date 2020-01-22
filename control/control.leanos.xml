@@ -71,12 +71,12 @@ textdomain="control"
         </services_proposal>
 
 	<!-- self-update URL -->
-	<self_update_url>https://updates.suse.com/SUSE/Updates/SLE-INSTALLER/15-SP2/$arch/update</self_update_url>
+	<self_update_url>https://updates.suse.com/SUSE/Updates/SLE-INSTALLER/$os_release_version/$arch/update</self_update_url>
 	<!-- self-update ID. SCC recognize for SLE15 ID SLES -->
 	<self_update_id>SLES</self_update_id>
 
 	<!-- Information about required media if the user has skipped the registration -->
-	<full_system_media_name>SLE-15-SP2-Full</full_system_media_name>
+	<full_system_media_name>SLE-$os_release_version-Full</full_system_media_name>
 	<full_system_download_url>https://download.suse.com</full_system_download_url>
 
     </globals>
