@@ -2,7 +2,7 @@
 Wed Jan 22 15:18:19 CET 2020 - schubi@suse.de
 - Using tag $os_release_version in <self_update_url> and
   <full_system_media_name> instead of a hard coded version number.
-  This will be replaces by the value defined by VERSION in
+  This will be replaced by the value defined by VERSION in
   /etc/os-release. (improvement for fate#325834)
 - 15.2.9
 
