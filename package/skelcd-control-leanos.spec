@@ -41,7 +41,7 @@ BuildRequires:  yast2-installation-control >= 4.2.6
 
 # leanos specific Yast packages needed in the inst-sys
 # to provide the functionality needed by this control file
-Requires:       yast2-registration >= 4.0.26
+Requires:       yast2-registration >= 4.2.27
 Requires:       yast2-theme
 
 # Generic Yast packages needed for the installer
@@ -52,8 +52,8 @@ Requires:       yast2-devtools
 Requires:       yast2-fcoe-client
 # For creating the AutoYast profile at the end of installation (bnc#887406)
 Requires:       yast2-firewall
-# instsys_cleanup
-Requires:       yast2-installation >= 3.1.201
+# $os_release_version expansion in the <self_update_url> tag
+Requires:       yast2-installation >= 4.2.28
 Requires:       yast2-iscsi-client
 Requires:       yast2-kdump
 Requires:       yast2-multipath
@@ -96,7 +96,7 @@ Requires:       sap-installation-wizard
 
 Url:            https://github.com/yast/skelcd-control-leanos
 AutoReqProv:    off
-Version:        15.2.8
+Version:        15.2.9
 Release:        0
 Summary:        Leanos control file needed for installation
 License:        MIT
