@@ -161,6 +161,13 @@ textdomain="control"
             <archs>aarch64,x86_64</archs>
           </base_product>
           <base_product>
+            <display_name>SUSE Linux Enterprise Real Time 15 SP2</display_name>
+            <name>SLE_RT</name>
+            <version>15.2</version>
+            <register_target>sle-15-$arch</register_target>
+            <archs>x86_64</archs>
+          </base_product>
+          <base_product>
             <display_name>SUSE Linux Enterprise Server for SAP Applications 15 SP2</display_name>
             <name>SLES_SAP</name>
             <version>15.2</version>
