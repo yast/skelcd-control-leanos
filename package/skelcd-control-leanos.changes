@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Wed Apr 22 13:43:47 UTC 2020 - Imobach Gonzalez Sosa <igonzalezsosa@suse.com>
+
+- Add the Real Time base product (jsc#SLE-7104).
+- 15.2.12
+
+-------------------------------------------------------------------
 Wed Apr  8 14:39:55 UTC 2020 - Ladislav Slezák <lslezak@suse.cz>
 
 - Allow updating the roles via self_update repository (bsc#1168702)
