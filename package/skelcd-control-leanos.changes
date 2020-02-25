@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Mon Feb 24 14:42:50 UTC 2020 - Ladislav Slezák <lslezak@suse.cz>
+
+- Specify the default preselected modules in the offline
+  installation (jsc#SLE-8040, jsc#SLE-11455)
+- 15.2.10
+
+-------------------------------------------------------------------
 Wed Jan 22 15:18:19 CET 2020 - schubi@suse.de
 - Using tag $os_release_version in <self_update_url> and
   <full_system_media_name> instead of a hard coded version number.
