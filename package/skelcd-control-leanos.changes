@@ -1,7 +1,7 @@
 -------------------------------------------------------------------
 Wed Apr 22 13:43:47 UTC 2020 - Imobach Gonzalez Sosa <igonzalezsosa@suse.com>
 
-- Add the Real Time base product (jsc#SLE-7104).
+- Add the Real Time base product (jsc#SLE-7104 and bsc#1166865).
 - 15.2.12
 
 -------------------------------------------------------------------
