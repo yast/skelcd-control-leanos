@@ -9,7 +9,7 @@ end
 # the location in the inst-sys is different than in the built RPM package
 # so the usual "rake install" would not work here
 
-# running int the inst-sys?
+# running in the inst-sys?
 if File.exist?("/.packages.initrd")
   task :install do
     destdir = ENV["DESTDIR"] || "/"
