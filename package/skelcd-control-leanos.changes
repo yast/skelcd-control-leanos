@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Wed Apr  8 14:39:55 UTC 2020 - Ladislav Slezák <lslezak@suse.cz>
+
+- Allow updating the roles via self_update repository (bsc#1168702)
+- 15.2.11
+
+-------------------------------------------------------------------
 Mon Feb 24 14:42:50 UTC 2020 - Ladislav Slezák <lslezak@suse.cz>
 
 - Specify the default preselected modules in the offline
