@@ -736,16 +736,6 @@ Please visit us at http://www.suse.com/.
                     <enable_back>no</enable_back>
                     <enable_next>yes</enable_next>
                 </module>
-                <module>
-                    <label>Repositories Initialization</label>
-                    <name>repositories_initialization</name>
-                    <!-- skip on the Online and Offline installation medium, it is done later -->
-                    <!-- TODO: Remove this step completely once the old Installer and
-                         the non-bootable Packages DVD are dropped. -->
-                    <arguments>
-                        <skip>online,offline</skip>
-                    </arguments>
-                </module>
                 <!-- bsc#1047060: Module used only to display a beta warning in case README.BETA
                 file exists. Other than that, the module is completely skipped in auto mode -->
                 <module>
