@@ -161,6 +161,7 @@ textdomain="control"
         <clone_module>ntp-client</clone_module>
         <clone_module>ssh_import</clone_module>
         <clone_module>tftp-server</clone_module>
+        <clone_module>security</clone_module>
 <!--
         <clone_module>scc</clone_module>
 -->
@@ -649,10 +650,6 @@ Please visit us at http://www.suse.com/.
                     <enable_next>yes</enable_next>
                 </module>
                 -->
-                <module>
-                    <label>Repositories Initialization</label>
-                    <name>repositories_initialization</name>
-                </module>
                 <!-- bsc#1047060: Module used only to display a beta warning in case README.BETA
                 file exists. Other than that, the module is completely skipped in auto mode -->
                 <module>
@@ -697,10 +694,6 @@ Please visit us at http://www.suse.com/.
                     <enable_next>yes</enable_next>
                 </module>
                 -->
-                <module>
-                    <label>Repositories Initialization</label>
-                    <name>repositories_initialization</name>
-                </module>
                 <!-- bsc#1047060: Module used only to display a beta warning in case README.BETA
                 file exists. Other than that, the module is completely skipped in auto mode -->
                 <module>
