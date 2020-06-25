@@ -96,11 +96,7 @@ Requires:       sap-installation-wizard
 
 Url:            https://github.com/yast/skelcd-control-leanos
 AutoReqProv:    off
-<<<<<<< HEAD
-Version:        15.1.3.1
-=======
-Version:        15.1.4
->>>>>>> SLE-15-SP1
+Version:        15.1.5.1
 Release:        0
 Summary:        Leanos control file needed for installation
 License:        MIT

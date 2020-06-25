@@ -1,4 +1,12 @@
 -------------------------------------------------------------------
+Thu Jun 25 10:41:30 UTC 2020 - Ladislav Slezák <lslezak@suse.cz>
+
+- Removed a not needed repository initialization step in AutoYaST,
+  it causes problems with unsigned repositories used by SUSE
+  Manager (bsc#1173204)
+- 15.1.5.1
+
+-------------------------------------------------------------------
 Mon Sep 30 15:13:04 CEST 2019 - schubi@suse.de
 
 - Added "security" to "clone_module" section (bsc#1150821).
