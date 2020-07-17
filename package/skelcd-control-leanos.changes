@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Thu Sep 24 11:10:11 UTC 2020 - Imobach Gonzalez Sosa <igonzalezsosa@suse.com>
+
+- Clone the <suse_register/> section (bsc#1174202).
+- 15.3.1
+
+-------------------------------------------------------------------
 Tue Aug 11 07:20:38 UTC 2020 - Ladislav Slezák <lslezak@suse.cz>
 
 - Adapt the products to SLE-15-SP3 (bsc#1175093)
