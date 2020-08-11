@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Tue Aug 11 07:20:38 UTC 2020 - Ladislav Slezák <lslezak@suse.cz>
+
+- Adapt the products to SLE-15-SP3 (bsc#1175093)
+- 15.3.0
+
+-------------------------------------------------------------------
 Thu Jun 25 10:41:30 UTC 2020 - Ladislav Slezák <lslezak@suse.cz>
 
 - Removed a not needed repository initialization step in AutoYaST,

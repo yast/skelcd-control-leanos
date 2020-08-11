@@ -100,7 +100,7 @@ textdomain="control"
         <selection_type config:type="symbol">auto</selection_type>
 
         <!-- bnc#875350: Explicitly selecting these patterns by default -->
-        <!-- For a list of patterns, see https://build.suse.de/package/view_file/SUSE:SLE-12-SP2:GA/patterns-sles/patterns-sles.spec?expand=1 -->
+        <!-- For a list of patterns, see https://build.suse.de/package/view_file/SUSE:SLE-12-SP3:GA/patterns-sles/patterns-sles.spec?expand=1 -->
         <default_patterns>minimal_base</default_patterns>
 
         <!-- the default preselected products (add-ons) for the offline Full medium installation -->
@@ -141,36 +141,36 @@ textdomain="control"
           <base_product>
             <!-- hidden product -->
             <special_product config:type="boolean">true</special_product>
-            <display_name>SUSE Linux Enterprise Server 15 SP2 Business Critical Linux</display_name>
+            <display_name>SUSE Linux Enterprise Server 15 SP3 Business Critical Linux</display_name>
             <name>SLES_BCL</name>
-            <version>15.2</version>
+            <version>15.3</version>
             <register_target>sle-15-$arch</register_target>
             <archs>x86_64</archs>
           </base_product>
           <base_product>
-            <display_name>SUSE Linux Enterprise Server 15 SP2</display_name>
+            <display_name>SUSE Linux Enterprise Server 15 SP3</display_name>
             <name>SLES</name>
-            <version>15.2</version>
+            <version>15.3</version>
             <register_target>sle-15-$arch</register_target>
           </base_product>
           <base_product>
-            <display_name>SUSE Linux Enterprise High Performance Computing 15 SP2</display_name>
+            <display_name>SUSE Linux Enterprise High Performance Computing 15 SP3</display_name>
             <name>SLE_HPC</name>
-            <version>15.2</version>
+            <version>15.3</version>
             <register_target>sle-15-$arch</register_target>
             <archs>aarch64,x86_64</archs>
           </base_product>
           <base_product>
-            <display_name>SUSE Linux Enterprise Server for SAP Applications 15 SP2</display_name>
+            <display_name>SUSE Linux Enterprise Server for SAP Applications 15 SP3</display_name>
             <name>SLES_SAP</name>
-            <version>15.2</version>
+            <version>15.3</version>
             <register_target>sle-15-$arch</register_target>
             <archs>ppc64le,x86_64</archs>
           </base_product>
           <base_product>
-            <display_name>SUSE Linux Enterprise Desktop 15 SP2</display_name>
+            <display_name>SUSE Linux Enterprise Desktop 15 SP3</display_name>
             <name>SLED</name>
-            <version>15.2</version>
+            <version>15.3</version>
             <register_target>sle-15-$arch</register_target>
             <archs>x86_64</archs>
           </base_product>
