@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Wed Sep  9 06:58:35 UTC 2020 - Jeffrey Cheung <jcheung@suse.com>
+
+- Add RT15 SP2 base product (jsc#SLE-16203)
+- 15.3.1
+
+-------------------------------------------------------------------
 Tue Aug 11 07:20:38 UTC 2020 - Ladislav Slezák <lslezak@suse.cz>
 
 - Adapt the products to SLE-15-SP3 (bsc#1175093)
