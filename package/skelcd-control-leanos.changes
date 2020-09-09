@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Wed Sep  9 06:58:35 UTC 2020 - Jeffrey Cheung <jcheung@suse.com>
+
+- Add RT15 SP2 base product (jsc#SLE-16203)
+- 15.2.13
+
+-------------------------------------------------------------------
 Thu Jun 25 10:41:30 UTC 2020 - Ladislav Slezák <lslezak@suse.cz>
 
 - Removed a not needed repository initialization step in AutoYaST,
