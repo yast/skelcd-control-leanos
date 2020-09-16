@@ -1,8 +1,11 @@
 require "yast/rake"
 
-Yast::Tasks.submit_to :sle15sp2
-
 Yast::Tasks.configuration do |conf|
+  conf.obs_api = "https://api.suse.de"
+  conf.obs_target = "SUSE_SLE-15-SP2_Update_QR"
+  conf.obs_sr_project = "SUSE:SLE-15-SP2:Update:QR"
+  conf.obs_project = "Devel:YaST:SLE-15-SP2-QR"
+
   # lets ignore license check for now
   conf.skip_license_check << /.*/
 end
