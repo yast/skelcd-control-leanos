@@ -73,9 +73,13 @@ textdomain="control"
 	<!-- self-update URL -->
 	<!-- $os_release_version will be replaced by VERSION defined in /etc/os-release file (inst-sys). -->
 	<!-- $arch will be replaced by the machine architecture. -->
-	<self_update_url>https://updates.suse.com/SUSE/Updates/SLE-INSTALLER/$os_release_version/$arch/update</self_update_url>
+
+	<!-- Note: the self update step ("update_installer") is disabled
+	     for quarterly media respins, the data below would be ignored anyway. -->
+
+	<!-- <self_update_url>https://updates.suse.com/SUSE/Updates/SLE-INSTALLER/$os_release_version/$arch/update</self_update_url> -->
 	<!-- self-update ID. SCC recognize for SLE15 ID SLES -->
-	<self_update_id>SLES</self_update_id>
+	<!-- <self_update_id>SLES</self_update_id> -->
 
 	<!-- Information about required media if the user has skipped the registration -->
 	<!-- $os_release_version will be replaced by VERSION defined in /etc/os-release file (inst-sys). -->
@@ -527,10 +531,14 @@ Please visit us at http://www.suse.com/.
                     <name>setup_dhcp</name>
                 </module>
                 <!-- As soon as possible but after network is initialized -->
+                <!-- Disabled for quarterly media respins, there is in an updated inst-sys
+                     which might contain newer packages than the self update repository -->
+                <!--
                 <module>
                     <label>Installer Update</label>
                     <name>update_installer</name>
                 </module>
+                -->
                 <module>
                     <!-- skip on the Online installation medium, it is done later -->
                     <!-- on the Offline we need to add the self-update add-on repository -->
@@ -612,10 +620,14 @@ Please visit us at http://www.suse.com/.
                     <name>setup_dhcp</name>
                 </module>
                 <!-- As soon as possible but after network is initialized -->
+                <!-- Disabled for quarterly media respins, there is in an updated inst-sys
+                     which might contain newer packages than the self update repository -->
+                <!--
                 <module>
                     <label>Installer Update</label>
                     <name>update_installer</name>
                 </module>
+                -->
                 <module>
                     <label>Repositories Initialization</label>
                     <name>repositories_initialization</name>
@@ -737,12 +749,16 @@ Please visit us at http://www.suse.com/.
             </defaults>
             <modules config:type="list">
                 <!-- As soon as possible -->
+                <!-- Disabled for quarterly media respins, there is in an updated inst-sys
+                     which might contain newer packages than the self update repository -->
+                <!--
                 <module>
                     <label>Installer Update</label>
                     <name>update_installer</name>
                     <enable_back>no</enable_back>
                     <enable_next>yes</enable_next>
                 </module>
+                -->
                 <!-- bsc#1047060: Module used only to display a beta warning in case README.BETA
                 file exists. Other than that, the module is completely skipped in auto mode -->
                 <module>
@@ -777,12 +793,16 @@ Please visit us at http://www.suse.com/.
             <stage>initial</stage>
             <modules config:type="list">
                 <!-- As soon as possible -->
+                <!-- Disabled for quarterly media respins, there is in an updated inst-sys
+                     which might contain newer packages than the self update repository -->
+                <!--
                 <module>
                     <label>Installer Update</label>
                     <name>update_installer</name>
                     <enable_back>no</enable_back>
                     <enable_next>yes</enable_next>
                 </module>
+                -->
                 <!-- bsc#1047060: Module used only to display a beta warning in case README.BETA
                 file exists. Other than that, the module is completely skipped in auto mode -->
                 <module>
