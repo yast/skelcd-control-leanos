@@ -233,9 +233,7 @@ textdomain="control"
         <clone_module>ssh_import</clone_module>
         <clone_module>tftp-server</clone_module>
         <clone_module>security</clone_module>
-<!--
-        <clone_module>scc</clone_module>
--->
+        <clone_module>suse_register</clone_module>
     </clone_modules>
 
     <texts>
