@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Thu Oct 29 10:08:09 UTC 2020 - Knut Anderssen <kanderssen@suse.com>
+
+- Write linuxrc hostname and proxy configuration also during an
+  autoinstallation (bsc#1177768)
+- 15.2.14
+
+-------------------------------------------------------------------
 Wed Sep  9 06:58:35 UTC 2020 - Jeffrey Cheung <jcheung@suse.com>
 
 - Add RT15 SP2 base product (jsc#SLE-16203)
