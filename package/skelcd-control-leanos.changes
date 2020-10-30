@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Thu Oct 29 10:08:09 UTC 2020 - Knut Anderssen <kanderssen@suse.com>
+
+- Write linuxrc hostname and proxy configuration also during an
+  autoinstallation (bsc#1177768)
+- 15.3.2
+
+-------------------------------------------------------------------
 Thu Sep 24 11:10:11 UTC 2020 - Imobach Gonzalez Sosa <igonzalezsosa@suse.com>
 
 - Clone the <suse_register/> section (bsc#1174202).
