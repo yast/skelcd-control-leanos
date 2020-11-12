@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Thu Nov 12 21:03:56 UTC 2020 - Josef Reidinger <jreidinger@suse.com>
+
+- disable by default for SLE hibernation unless product specify
+  otherwise (jsc#SLE-12280)
+- 15.3.3
+
+-------------------------------------------------------------------
 Thu Oct 29 10:08:09 UTC 2020 - Knut Anderssen <kanderssen@suse.com>
 
 - Write linuxrc hostname and proxy configuration also during an
