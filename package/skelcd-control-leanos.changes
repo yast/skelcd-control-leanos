@@ -1,4 +1,9 @@
 -------------------------------------------------------------------
+Tue Nov 24 09:45:58 UTC 2020 - Julio González Gil <jgonzalez@suse.com>
+
+- Update the definitions for SUSE Manager 4.2 (bsc#1179134)
+
+-------------------------------------------------------------------
 Thu Nov 12 21:03:56 UTC 2020 - Josef Reidinger <jreidinger@suse.com>
 
 - disable by default for SLE hibernation unless product specify
