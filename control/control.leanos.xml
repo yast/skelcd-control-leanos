@@ -84,7 +84,7 @@ textdomain="control"
 	<!-- Information about required media if the user has skipped the registration -->
 	<!-- $os_release_version will be replaced by VERSION defined in /etc/os-release file (inst-sys). -->
 	<full_system_media_name>SLE-$os_release_version-Full</full_system_media_name>
-	<full_system_download_url>https://download.suse.com</full_system_download_url>
+	<full_system_download_url>https://www.suse.com/download/</full_system_download_url>
 
     </globals>
 
