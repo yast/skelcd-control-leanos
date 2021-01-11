@@ -41,6 +41,13 @@ textdomain="control"
         <show_addons config:type="boolean">true</show_addons>
         <addons_default config:type="boolean">true</addons_default>
 
+        <default_ntp_servers config:type="list">
+          <ntp_server>0.suse.pool.ntp.org</ntp_server>
+          <ntp_server>1.suse.pool.ntp.org</ntp_server>
+          <ntp_server>2.suse.pool.ntp.org</ntp_server>
+          <ntp_server>3.suse.pool.ntp.org</ntp_server>
+        </ntp_servers>
+
         <!-- FATE #301937, Save /root content from the installation system to the installed system -->
         <save_instsys_content config:type="list">
             <save_instsys_item>

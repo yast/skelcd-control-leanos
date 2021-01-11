@@ -31,7 +31,7 @@ Name:           skelcd-control-leanos
 # xmllint (for validation)
 BuildRequires:  libxml2-tools
 # RNG validation schema
-BuildRequires:  yast2-installation-control >= 4.3.7
+BuildRequires:  yast2-installation-control >= 4.3.8
 
 ######################################################################
 #
