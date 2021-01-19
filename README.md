@@ -1,7 +1,8 @@
 skelcd-control-leanos
 =====================
 
-[![Travis Build](https://travis-ci.org/yast/skelcd-control-leanos.svg?branch=master)](https://travis-ci.org/yast/skelcd-control-leanos)
+[![Workflow Status](https://github.com/yast/skelcd-control-leanos/workflows/CI/badge.svg?branch=master)](
+https://github.com/yast/skelcd-control-leanos/actions?query=branch%3Amaster)
 
 
 Installation control file for SUSE Linux Enterprise LeanOS product
