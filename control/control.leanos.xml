@@ -306,8 +306,9 @@ Please visit us at http://www.suse.com/.
                     <name>default_target</name>
                     <presentation_order>75</presentation_order>
                 </proposal_module>
+                <!-- security proposal including firewall, cpu mitigation, selinux and polkit -->
                 <proposal_module>
-                    <name>firewall</name>
+                    <name>security</name>
                     <presentation_order>50</presentation_order>
                 </proposal_module>
                 <!-- Fate #319624 - proposal and dialog for existing SSH host keys -->
@@ -362,8 +363,9 @@ Please visit us at http://www.suse.com/.
                     <name>default_target</name>
                     <presentation_order>75</presentation_order>
                 </proposal_module>
+                <!-- security proposal including firewall, cpu mitigation, selinux and polkit -->
                 <proposal_module>
-                    <name>firewall</name>
+                    <name>security</name>
                     <presentation_order>50</presentation_order>
                 </proposal_module>
                 <!-- Fate #319624 - proposal and dialog for existing SSH host keys -->
