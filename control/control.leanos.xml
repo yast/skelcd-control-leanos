@@ -74,18 +74,17 @@ textdomain="control"
             </service>
         </services_proposal>
 
-	<!-- self-update URL -->
-	<!-- $os_release_version will be replaced by VERSION defined in /etc/os-release file (inst-sys). -->
-	<!-- $arch will be replaced by the machine architecture. -->
-	<self_update_url>https://updates.suse.com/SUSE/Updates/SLE-INSTALLER/$os_release_version/$arch/update</self_update_url>
-	<!-- self-update ID. SCC recognize for SLE15 ID SLES -->
-	<self_update_id>SLES</self_update_id>
+        <!-- self-update URL -->
+        <!-- $os_release_version will be replaced by VERSION defined in /etc/os-release file (inst-sys). -->
+        <!-- $arch will be replaced by the machine architecture. -->
+        <self_update_url>https://updates.suse.com/SUSE/Updates/SLE-INSTALLER/$os_release_version/$arch/update</self_update_url>
+        <!-- self-update ID. SCC recognize for SLE15 ID SLES -->
+        <self_update_id>SLES</self_update_id>
 
-	<!-- Information about required media if the user has skipped the registration -->
-	<!-- $os_release_version will be replaced by VERSION defined in /etc/os-release file (inst-sys). -->
-	<full_system_media_name>SLE-$os_release_version-Full</full_system_media_name>
-	<full_system_download_url>https://www.suse.com/download/</full_system_download_url>
-
+        <!-- Information about required media if the user has skipped the registration -->
+        <!-- $os_release_version will be replaced by VERSION defined in /etc/os-release file (inst-sys). -->
+        <full_system_media_name>SLE-$os_release_version-Full</full_system_media_name>
+        <full_system_download_url>https://www.suse.com/download/</full_system_download_url>
     </globals>
 
     <software>
