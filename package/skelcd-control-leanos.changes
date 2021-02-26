@@ -1,4 +1,13 @@
 -------------------------------------------------------------------
+Thu Feb 25 09:25:23 UTC 2021 - David Diaz <dgonzalez@suse.com>
+
+- Set SELinux disabled mode by default (related to jsc#SLE-17307)
+- Replace firewall with a new security proposal and finish clients
+  that contain also configuration for cpu mitigation, policy kit
+  default privileges (jsc#SLE-15840) and SELinux mode (jsc#SLE-17307)
+- 15.3.6
+
+-------------------------------------------------------------------
 Fri Dec 18 15:57:56 UTC 2020 - Ladislav Slezák <lslezak@suse.cz>
 
 - Fixed download URL (related to bsc#1177504)
