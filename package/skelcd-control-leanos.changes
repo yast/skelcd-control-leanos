@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Tue Mar 30 08:50:22 UTC 2021 - Josef Reidinger <jreidinger@suse.com>
+
+- Move security proposal so it can propoperly propose software
+  (bsc#1183804)
+- 15.3.7
+
+-------------------------------------------------------------------
 Thu Feb 25 09:25:23 UTC 2021 - David Diaz <dgonzalez@suse.com>
 
 - Set SELinux disabled mode by default (related to jsc#SLE-17307)
