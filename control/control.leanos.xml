@@ -296,6 +296,12 @@ Please visit us at http://www.suse.com/.
                     <name>kdump</name>
                     <presentation_order>60</presentation_order>
                 </proposal_module>
+                <!-- security proposal including firewall, cpu mitigation, selinux and polkit -->
+                <!-- security proposal can propose to install selinux pattern, so it has to be before software, but need also bootloader proposed, so after it -->
+                <proposal_module>
+                    <name>security</name>
+                    <presentation_order>50</presentation_order>
+                </proposal_module>
                 <!-- software proposal should be computed almost at the end -->
                 <proposal_module>
                     <name>software</name>
@@ -305,11 +311,6 @@ Please visit us at http://www.suse.com/.
                 <proposal_module>
                     <name>default_target</name>
                     <presentation_order>75</presentation_order>
-                </proposal_module>
-                <!-- security proposal including firewall, cpu mitigation, selinux and polkit -->
-                <proposal_module>
-                    <name>security</name>
-                    <presentation_order>50</presentation_order>
                 </proposal_module>
                 <!-- Fate #319624 - proposal and dialog for existing SSH host keys -->
                 <proposal_module>
@@ -353,6 +354,12 @@ Please visit us at http://www.suse.com/.
                     <name>kdump</name>
                     <presentation_order>60</presentation_order>
                 </proposal_module>
+                <!-- security proposal including firewall, cpu mitigation, selinux and polkit -->
+                <!-- security proposal can propose to install selinux pattern, so it has to be before software, but need also bootloader proposed, so after it -->
+                <proposal_module>
+                    <name>security</name>
+                    <presentation_order>50</presentation_order>
+                </proposal_module>
                 <!-- software proposal should be computed almost at the end -->
                 <proposal_module>
                     <name>software</name>
@@ -362,11 +369,6 @@ Please visit us at http://www.suse.com/.
                 <proposal_module>
                     <name>default_target</name>
                     <presentation_order>75</presentation_order>
-                </proposal_module>
-                <!-- security proposal including firewall, cpu mitigation, selinux and polkit -->
-                <proposal_module>
-                    <name>security</name>
-                    <presentation_order>50</presentation_order>
                 </proposal_module>
                 <!-- Fate #319624 - proposal and dialog for existing SSH host keys -->
                 <proposal_module>
