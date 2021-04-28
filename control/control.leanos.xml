@@ -89,7 +89,8 @@ textdomain="control"
         <!-- Set SELinux disabled mode by default -->
         <selinux>
           <mode>disabled</mode>
-          <configurable config:type="boolean">true</configurable>
+          <!-- Not configurable because of https://bugzilla.suse.com/show_bug.cgi?id=1184215 -->
+          <configurable config:type="boolean">false</configurable>
         </selinux>
     </globals>
 
