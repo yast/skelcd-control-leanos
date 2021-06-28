@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Mon Jun 28 11:49:19 UTC 2021 - Ladislav Slezák <lslezak@suse.cz>
+
+- Disable YaST self-update on the quarterly media updates
+  (bsc#1187764)
+- 15.3.8.1
+
+-------------------------------------------------------------------
 Wed Apr 28 09:28:04 UTC 2021 - David Diaz <dgonzalez@suse.com>
 
 - Deactivate the UI for configuring SELinux (bsc#1184215)
