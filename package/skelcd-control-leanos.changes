@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Tue Jul 20 12:42:50 UTC 2021 - Stefan Weiberg <sweiberg@suse.com>
+
+- Adapt the product to SLE-15-SP4 (bsc#1188509)
+- 15.4.1
+
+-------------------------------------------------------------------
 Tue Apr 20 12:42:50 UTC 2021 - Ladislav Slezák <lslezak@suse.cz>
 
 - 15.4.0
