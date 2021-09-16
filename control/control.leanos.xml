@@ -167,6 +167,13 @@ textdomain="control"
             <register_target>sle-15-$arch</register_target>
           </base_product>
           <base_product>
+            <display_name>SUSE Linux Enterprise Real Time 15 SP3</display_name>
+            <name>SLE_RT</name>
+            <version>15.3</version>
+            <register_target>sle-15-$arch</register_target>
+            <archs>x86_64</archs>
+          </base_product>	
+          <base_product>
             <display_name>SUSE Linux Enterprise High Performance Computing 15 SP3</display_name>
             <name>SLE_HPC</name>
             <version>15.3</version>
