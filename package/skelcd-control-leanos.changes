@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Tue Oct 19 07:33:12 UTC 2021 - Julio González Gil <jgonzalez@suse.com>
+
+- Version 15.4.2
+  * Update the definitions for SUSE Manager 4.3 (bsc#1191807)
+
+-------------------------------------------------------------------
 Tue Jul 20 12:42:50 UTC 2021 - Stefan Weiberg <sweiberg@suse.com>
 
 - Adapt the product to SLE-15-SP4 (bsc#1188509)

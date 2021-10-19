@@ -1,7 +1,7 @@
 #
 # spec file for package skelcd-control-leanos
 #
-# Copyright (c) 2016 SUSE LINUX GmbH, Nuernberg, Germany.
+# Copyright (c) 2021 SUSE LLC
 #
 # All modifications and additions to the file contributed by third parties
 # remain the property of their copyright owners, unless otherwise agreed
@@ -12,7 +12,7 @@
 # license that conforms to the Open Source Definition (Version 1.9)
 # published by the Open Source Initiative.
 
-# Please submit bugfixes or comments via http://bugs.opensuse.org/
+# Please submit bugfixes or comments via https://bugs.opensuse.org/
 #
 
 
@@ -61,10 +61,10 @@ Requires:       yast2-network >= 3.1.42
 Requires:       yast2-nfs-client
 Requires:       yast2-ntp-client
 # online medium support
+Requires:       yast2-configuration-management
 Requires:       yast2-packager >= 4.2.27
 Requires:       yast2-proxy
 Requires:       yast2-services-manager
-Requires:       yast2-configuration-management
 Requires:       yast2-slp
 Requires:       yast2-trans-stats
 Requires:       yast2-tune
@@ -94,9 +94,9 @@ Requires:       sap-installation-wizard
 #
 ######################################################################
 
-Url:            https://github.com/yast/skelcd-control-leanos
+URL:            https://github.com/yast/skelcd-control-leanos
 AutoReqProv:    off
-Version:        15.4.1
+Version:        15.4.2
 Release:        0
 Summary:        Leanos control file needed for installation
 License:        MIT
