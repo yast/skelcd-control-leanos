@@ -537,15 +537,6 @@ Please visit us at http://www.suse.com/.
                     <name>update_installer</name>
                 </module>
                 <module>
-                    <!-- skip on the Online installation medium, it is done later -->
-                    <!-- on the Offline we need to add the self-update add-on repository -->
-                    <label>Repositories Initialization</label>
-                    <name>repositories_initialization</name>
-                    <arguments>
-                        <skip>online</skip>
-                    </arguments>
-                </module>
-                <module>
                     <name>complex_welcome</name>
                     <label>Welcome</label>
                     <enable_back>no</enable_back>
@@ -574,28 +565,24 @@ Please visit us at http://www.suse.com/.
                     <enable_next>yes</enable_next>
                 </module>
                 <module>
-                    <!-- only on the Online installation medium -->
                     <label>Registration</label>
                     <name>scc</name>
                     <enable_back>yes</enable_back>
                     <enable_next>yes</enable_next>
-                    <arguments>
-                        <only>online</only>
-                    </arguments>
                 </module>
                 <module>
-                    <!-- only on the Online installation medium -->
                     <label>Repositories Initialization</label>
                     <name>repositories_initialization</name>
-                    <arguments>
-                        <only>online</only>
-                    </arguments>
                 </module>
                 <module>
                     <label>System Analysis</label>
                     <name>system_analysis</name>
                     <enable_back>yes</enable_back>
                     <enable_next>yes</enable_next>
+                </module>
+                <module>
+                    <label>System Analysis</label>
+                    <name>product_workflow</name>
                 </module>
             </modules>
         </workflow>
@@ -620,13 +607,6 @@ Please visit us at http://www.suse.com/.
                 <module>
                     <label>Installer Update</label>
                     <name>update_installer</name>
-                </module>
-                <module>
-                    <label>Repositories Initialization</label>
-                    <name>repositories_initialization</name>
-                    <arguments>
-                        <skip>online,offline</skip>
-                    </arguments>
                 </module>
                 <module>
                     <name>complex_welcome</name>
@@ -880,6 +860,5 @@ Please visit us at http://www.suse.com/.
                 </module>
             </modules>
         </workflow>
-
     </workflows>
 </productDefines>
