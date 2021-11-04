@@ -111,7 +111,7 @@ textdomain="control"
 
         <!-- bnc#875350: Explicitly selecting these patterns by default -->
         <!-- For a list of patterns, see https://build.suse.de/package/view_file/SUSE:SLE-12-SP3:GA/patterns-sles/patterns-sles.spec?expand=1 -->
-        <default_patterns>minimal_base</default_patterns>
+        <default_patterns>base</default_patterns>
 
         <!-- the default preselected products (add-ons) for the offline Full medium installation -->
         <!-- this is the "default default", the product specific control files usually override it -->
