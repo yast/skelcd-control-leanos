@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Thu Nov 18 13:03:03 UTC 2021 - Josef Reidinger <jreidinger@suse.com>
+
+- Simplify the workflow by running registration always and
+  repositories just once (bsc#1192626).
+- 15.4.3
+
+-------------------------------------------------------------------
 Tue Oct 19 07:33:12 UTC 2021 - Julio González Gil <jgonzalez@suse.com>
 
 - Version 15.4.2
