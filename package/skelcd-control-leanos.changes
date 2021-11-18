@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Thu Nov 18 13:03:03 UTC 2021 - Josef Reidinger <jreidinger@suse.com>
+
+- Simplify the workflow by running registration always and
+  repositories just once (bsc#1192626).
+- 15.4.2
+
+-------------------------------------------------------------------
 Tue Jul 20 12:42:50 UTC 2021 - Stefan Weiberg <sweiberg@suse.com>
 
 - Adapt the product to SLE-15-SP4 (bsc#1188509)
