@@ -21,3 +21,17 @@ if File.exist?("/.packages.initrd")
   end
 end
 
+desc "Validate the XML"
+task :"test:validate" do
+  schema = "/usr/share/YaST2/control/control.rng".freeze
+  xml = "control/control.leanos.xml".freeze
+
+  begin
+    # prefer using jing for validation
+    sh "jing", schema, xml
+    puts "OK"
+  rescue Errno::ENOENT
+    # fallback to xmllint
+    sh "xmllint", "--noout", "--relaxng", schema, xml
+  end
+end
