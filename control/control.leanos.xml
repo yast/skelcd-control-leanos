@@ -86,12 +86,22 @@ textdomain="control"
         <full_system_media_name>SLE-$os_release_version-Full</full_system_media_name>
         <full_system_download_url>https://www.suse.com/download/</full_system_download_url>
 
-        <!-- Set SELinux disabled mode by default -->
-        <selinux>
-          <mode>disabled</mode>
-          <!-- Not configurable because of https://bugzilla.suse.com/show_bug.cgi?id=1184215 -->
+        <lsm>
+          <select>apparmor</select>
           <configurable config:type="boolean">false</configurable>
-        </selinux>
+          <!-- Set SELinux disabled mode by default -->
+          <apparmor>
+            <!-- Not configurable because of https://bugzilla.suse.com/show_bug.cgi?id=1184215 -->
+            <patterns>apparmor</patterns>
+          </apparmor>
+          <selinux>
+            <mode>disabled</mode>
+            <!-- Not configurable because of https://bugzilla.suse.com/show_bug.cgi?id=1184215 -->
+            <configurable config:type="boolean">false</configurable>
+            <selectable config:type="boolean">false</selectable>
+            <patterns>selinux</patterns>
+          </selinux>
+        </lsm>
     </globals>
 
     <software>
