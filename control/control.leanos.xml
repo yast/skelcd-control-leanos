@@ -112,9 +112,9 @@ textdomain="control"
             <regexp_item>^SUSE (LINUX|Linux) Enterprise Server 12.*$</regexp_item>
         </silently_downgrade_packages_reverse_list>
 
-        <!-- Upgrading from SLES, SLED, SLE4SAP is supported, otherwise a warning is displayed -->
+        <!-- Upgrading from SLES, SLED, SLE4SAP in versions 12 and 15 is supported, otherwise a warning is displayed -->
         <products_supported_for_upgrade config:type="list">
-            <regexp_item>^SUSE (LINUX|Linux) Enterprise.*$</regexp_item>
+            <regexp_item>^SUSE (LINUX|Linux) Enterprise.*(12|15).*$</regexp_item>
         </products_supported_for_upgrade>
 
         <selection_type config:type="symbol">auto</selection_type>
