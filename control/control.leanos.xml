@@ -88,7 +88,7 @@ textdomain="control"
 
         <lsm>
           <select>apparmor</select>
-          <configurable config:type="boolean">false</configurable>
+          <configurable config:type="boolean">true</configurable>
           <!-- Set SELinux disabled mode by default -->
           <apparmor>
             <!-- Not configurable because of https://bugzilla.suse.com/show_bug.cgi?id=1184215 -->
