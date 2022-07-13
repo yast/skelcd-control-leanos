@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Wed Jul 13 13:55:45 UTC 2022 - Ladislav Slezák <lslezak@suse.cz>
+
+- Disable YaST self-update on the quarterly media updates
+  (bsc#1201467)
+- 15.4.6.1
+
+-------------------------------------------------------------------
 Fri Feb 11 10:06:57 UTC 2022 - Knut Anderssen <kanderssen@suse.com>
 
 - Make LSM configurable during the installation (jsc#SLE-22069)
