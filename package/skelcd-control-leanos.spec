@@ -22,7 +22,7 @@
 #   in build service directly, use
 #   https://github.com/yast/skelcd-control-leanos repository
 #
-#   See https://github.com/yast/skelcd-control-leanos/blob/master/CONTRIBUTING.md
+#   See https://github.com/yast/.github/blob/master/CONTRIBUTING.md
 #   for more details.
 #
 ######################################################################
@@ -56,6 +56,8 @@ Requires:       yast2-firewall
 Requires:       yast2-installation >= 4.2.28
 Requires:       yast2-iscsi-client
 Requires:       yast2-kdump
+# yast2-kdump has only runtime dependency but the package is also needed in the inst-sys
+Requires:       kdump
 Requires:       yast2-multipath
 Requires:       yast2-network >= 3.1.42
 Requires:       yast2-nfs-client
@@ -96,7 +98,7 @@ Requires:       sap-installation-wizard
 
 URL:            https://github.com/yast/skelcd-control-leanos
 AutoReqProv:    off
-Version:        15.5.0
+Version:        15.5.1
 Release:        0
 Summary:        Leanos control file needed for installation
 License:        MIT
