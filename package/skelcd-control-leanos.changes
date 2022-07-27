@@ -1,4 +1,12 @@
 -------------------------------------------------------------------
+Tue Jul 26 14:07:58 UTC 2022 - Ladislav Slezák <lslezak@suse.cz>
+
+- Added "kdump" dependency, yast2-kdump only has a runtime
+  depenency but the package is also needed in the inst-sys
+  (related to bsc#1199840)
+- 15.5.1
+
+-------------------------------------------------------------------
 Wed Apr 06 13:24:58 UTC 2022 - Ladislav Slezák <lslezak@suse.cz>
 
 - Bump version to 15.5.0 (bsc#1198109)
