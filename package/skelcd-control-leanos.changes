@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Tue Aug 23 13:36:21 UTC 2022 - David Diaz <dgonzalez@suse.com>
+
+- Add the Real Time 15 SP4 base product to Installer (jsc#PM-3549)
+  Author: Jeffrey Cheung <jcheung@suse.com>
+- 15.4.6.2
+
+-------------------------------------------------------------------
 Wed Jul 13 13:55:45 UTC 2022 - Ladislav Slezák <lslezak@suse.cz>
 
 - Disable YaST self-update on the quarterly media updates
