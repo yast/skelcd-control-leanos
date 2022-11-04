@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Fri Nov 11 15:20:11 UTC 2022 - Imobach Gonzalez Sosa <igonzalezsosa@suse.com>
+
+- Add support for DISA STIG security policy validation
+  (jsc#SLE-24764).
+- 15.4.7
+
+-------------------------------------------------------------------
 Fri Feb 11 10:06:57 UTC 2022 - Knut Anderssen <kanderssen@suse.com>
 
 - Make LSM configurable during the installation (jsc#SLE-22069)
