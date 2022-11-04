@@ -313,6 +313,10 @@ Please visit us at http://www.suse.com/.
                     <name>security</name>
                     <presentation_order>50</presentation_order>
                 </proposal_module>
+                <proposal_module>
+                    <name>security_policy</name>
+                    <presentation_order>51</presentation_order>
+                </proposal_module>
                 <!-- software proposal should be computed almost at the end -->
                 <proposal_module>
                     <name>software</name>
@@ -370,6 +374,10 @@ Please visit us at http://www.suse.com/.
                 <proposal_module>
                     <name>security</name>
                     <presentation_order>50</presentation_order>
+                </proposal_module>
+                <proposal_module>
+                    <name>security_policy</name>
+                    <presentation_order>51</presentation_order>
                 </proposal_module>
                 <!-- software proposal should be computed almost at the end -->
                 <proposal_module>
@@ -449,6 +457,10 @@ Please visit us at http://www.suse.com/.
                     <name>ssh_import</name>
                     <presentation_order>80</presentation_order>
                 </proposal_module>
+                <proposal_module>
+                    <name>security_policy</name>
+                    <presentation_order>51</presentation_order>
+                </proposal_module>
             </proposal_modules>
 
             <proposal_tabs config:type="list">
@@ -459,6 +471,7 @@ Please visit us at http://www.suse.com/.
                         <proposal_module>partitions</proposal_module>
                         <proposal_module>software</proposal_module>
                         <proposal_module>language_simple</proposal_module>
+                        <proposal_module>security_policy</proposal_module>
                     </proposal_modules>
                 </proposal_tab>
 
