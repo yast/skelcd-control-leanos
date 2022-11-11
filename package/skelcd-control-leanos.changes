@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Fri Nov 11 15:20:11 UTC 2022 - Imobach Gonzalez Sosa <igonzalezsosa@suse.com>
+
+- Add support for DISA STIG security policy validation
+  (jsc#SLE-24764).
+- 15.4.6.3
+
+-------------------------------------------------------------------
 Tue Aug 23 13:36:21 UTC 2022 - David Diaz <dgonzalez@suse.com>
 
 - Add the Real Time 15 SP4 base product to Installer (jsc#PM-3549)

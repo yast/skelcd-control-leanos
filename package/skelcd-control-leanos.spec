@@ -75,6 +75,8 @@ Requires:       yast2-x11
 Requires:       rubygem(%{rb_default_ruby_abi}:byebug)
 # Install and enable xrdp by default (FATE#320363)
 Requires:       yast2-rdp
+# Support for security policies (jsc#SLE-24764)
+Requires:       yast2-security >= 4.4.15
 
 # Architecture specific packages
 #
@@ -96,7 +98,7 @@ Requires:       sap-installation-wizard
 
 URL:            https://github.com/yast/skelcd-control-leanos
 AutoReqProv:    off
-Version:        15.4.6.2
+Version:        15.4.6.3
 Release:        0
 Summary:        Leanos control file needed for installation
 License:        MIT
