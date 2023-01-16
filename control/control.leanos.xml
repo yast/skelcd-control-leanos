@@ -194,6 +194,13 @@ textdomain="control"
             <register_target>sle-15-$arch</register_target>
             <archs>x86_64</archs>
           </base_product>
+  	  <base_product>
+            <display_name>SUSE Linux Enterprise Real Time 15 SP5</display_name>
+            <name>SLE_RT</name>
+            <version>15.5</version>
+            <register_target>sle-15-$arch</register_target>
+            <archs>x86_64</archs>
+    	  </base_product>
           <base_product>
             <display_name>SUSE Manager Server 4.4</display_name>
             <name>SUSE-Manager-Server</name>
