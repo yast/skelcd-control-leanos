@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Tue Feb  7 12:59:23 UTC 2023 - Ladislav Slezák <lslezak@suse.com>
+
+- Remove the SUMA products from the Online medium product selection
+  (bsc#1207283, jsc#PED-2973)
+- 15.5.4
+
+-------------------------------------------------------------------
 Tue Aug 04 13:07:58 UTC 2022 - Stefan Weiberg <sweiberg@suse.com>
 
 - Adapt control file for SUMA 4.4 (bsc#1202139)

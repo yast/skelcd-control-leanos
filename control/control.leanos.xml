@@ -194,27 +194,6 @@ textdomain="control"
             <register_target>sle-15-$arch</register_target>
             <archs>x86_64</archs>
           </base_product>
-          <base_product>
-            <display_name>SUSE Manager Server 4.4</display_name>
-            <name>SUSE-Manager-Server</name>
-            <version>4.4</version>
-            <register_target>sle-15-$arch</register_target>
-            <archs>ppc64le,s390x,x86_64</archs>
-          </base_product>
-          <base_product>
-            <display_name>SUSE Manager Proxy 4.4</display_name>
-            <name>SUSE-Manager-Proxy</name>
-            <version>4.4</version>
-            <register_target>sle-15-$arch</register_target>
-            <archs>x86_64</archs>
-          </base_product>
-          <base_product>
-            <display_name>SUSE Manager Retail Branch Server 4.4</display_name>
-            <name>SUSE-Manager-Retail-Branch-Server</name>
-            <version>4.4</version>
-            <register_target>sle-15-$arch</register_target>
-            <archs>x86_64</archs>
-          </base_product>
         </base_products>
     </software>
 
