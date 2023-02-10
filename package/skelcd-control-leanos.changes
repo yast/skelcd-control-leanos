@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Wed Feb  8 12:02:23 UTC 2023 - Jeffrey Cheung <jcheung@suse.com>
+
+- Add SLERT15 SP5 product entry to Installer (jsc#PED-3131)
+- 15.5.5
+
+-------------------------------------------------------------------
 Tue Feb  7 12:59:23 UTC 2023 - Ladislav Slezák <lslezak@suse.com>
 
 - Remove the SUMA products from the Online medium product selection
