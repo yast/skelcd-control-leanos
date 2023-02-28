@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Tue Feb 28 10:36:43 UTC 2023 - Imobach Gonzalez Sosa <igonzalezsosa@suse.com>
+
+- Add support for DISA STIG security policy validation
+  (jsc#SLE-24764).
+- 15.5.6
+
+-------------------------------------------------------------------
 Wed Feb  8 12:02:23 UTC 2023 - Jeffrey Cheung <jcheung@suse.com>
 
 - Add SLERT15 SP5 product entry to Installer (jsc#PED-3131)
