@@ -161,43 +161,43 @@ textdomain="control"
           <base_product>
             <!-- hidden product -->
             <special_product config:type="boolean">true</special_product>
-            <display_name>SUSE Linux Enterprise Server 15 SP5 Business Critical Linux</display_name>
+            <display_name>SUSE Linux Enterprise Server 15 SP6 Business Critical Linux</display_name>
             <name>SLES_BCL</name>
-            <version>15.5</version>
+            <version>15.6</version>
             <register_target>sle-15-$arch</register_target>
             <archs>x86_64</archs>
           </base_product>
           <base_product>
-            <display_name>SUSE Linux Enterprise Server 15 SP5</display_name>
+            <display_name>SUSE Linux Enterprise Server 15 SP6</display_name>
             <name>SLES</name>
-            <version>15.5</version>
+            <version>15.6</version>
             <register_target>sle-15-$arch</register_target>
           </base_product>
           <base_product>
-            <display_name>SUSE Linux Enterprise High Performance Computing 15 SP5</display_name>
+            <display_name>SUSE Linux Enterprise High Performance Computing 15 SP6</display_name>
             <name>SLE_HPC</name>
-            <version>15.5</version>
+            <version>15.6</version>
             <register_target>sle-15-$arch</register_target>
             <archs>aarch64,x86_64</archs>
           </base_product>
 	  <base_product>
-            <display_name>SUSE Linux Enterprise Real Time 15 SP5</display_name>
+            <display_name>SUSE Linux Enterprise Real Time 15 SP6</display_name>
             <name>SLE_RT</name>
-            <version>15.5</version>
+            <version>15.6</version>
             <register_target>sle-15-$arch</register_target>
             <archs>x86_64</archs>
     	  </base_product>
           <base_product>
-            <display_name>SUSE Linux Enterprise Server for SAP Applications 15 SP5</display_name>
+            <display_name>SUSE Linux Enterprise Server for SAP Applications 15 SP6</display_name>
             <name>SLES_SAP</name>
-            <version>15.5</version>
+            <version>15.6</version>
             <register_target>sle-15-$arch</register_target>
             <archs>ppc64le,x86_64</archs>
           </base_product>
           <base_product>
-            <display_name>SUSE Linux Enterprise Desktop 15 SP5</display_name>
+            <display_name>SUSE Linux Enterprise Desktop 15 SP6</display_name>
             <name>SLED</name>
-            <version>15.5</version>
+            <version>15.6</version>
             <register_target>sle-15-$arch</register_target>
             <archs>x86_64</archs>
           </base_product>
