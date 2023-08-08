@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Tue Aug  8 13:44:06 UTC 2023 - Ladislav Slezák <lslezak@suse.com>
+
+- Disable YaST self-update on the quarterly media updates
+  (bsc#1214075)
+- 15.5.6.1
+
+-------------------------------------------------------------------
 Tue Feb 28 10:36:43 UTC 2023 - Imobach Gonzalez Sosa <igonzalezsosa@suse.com>
 
 - Add support for DISA STIG security policy validation
