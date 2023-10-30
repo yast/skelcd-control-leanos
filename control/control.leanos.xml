@@ -428,6 +428,14 @@ Please visit us at http://www.suse.com/.
                     <name>timezone</name>
                     <presentation_order>45</presentation_order>
                 </proposal_module>
+                <proposal_module>
+                    <name>security</name>
+                    <presentation_order>50</presentation_order>
+                </proposal_module>
+                <proposal_module>
+                    <name>security_policy</name>
+                    <presentation_order>51</presentation_order>
+                </proposal_module>
                 <!-- software proposal should be computed almost at the end -->
                 <proposal_module>
                     <name>software</name>
@@ -442,10 +450,6 @@ Please visit us at http://www.suse.com/.
                 <proposal_module>
                     <name>ssh_import</name>
                     <presentation_order>80</presentation_order>
-                </proposal_module>
-                <proposal_module>
-                    <name>security_policy</name>
-                    <presentation_order>51</presentation_order>
                 </proposal_module>
             </proposal_modules>
 
@@ -472,6 +476,8 @@ Please visit us at http://www.suse.com/.
                         <proposal_module>software</proposal_module>
                         <proposal_module>timezone</proposal_module>
                         <proposal_module>language</proposal_module>
+                        <proposal_module>security</proposal_module>
+                        <proposal_module>security_policy</proposal_module>
                         <proposal_module>default_target</proposal_module>
                         <proposal_module>kdump</proposal_module>
                         <proposal_module>ssh_import</proposal_module>
