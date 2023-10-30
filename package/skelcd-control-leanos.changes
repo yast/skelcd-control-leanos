@@ -1,4 +1,12 @@
 -------------------------------------------------------------------
+Mon Oct 30 09:14:16 UTC 2023 - Knut Anderssen <kanderssen@suse.com>
+
+- Add the security proposal to the autoyast overview and change the
+  security policy proposal order in order to be run  before the
+  software proposal (bsc#1216615)
+- 15.5.7
+
+-------------------------------------------------------------------
 Tue Feb 28 10:36:43 UTC 2023 - Imobach Gonzalez Sosa <igonzalezsosa@suse.com>
 
 - Add support for DISA STIG security policy validation
