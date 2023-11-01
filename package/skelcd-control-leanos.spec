@@ -51,7 +51,7 @@ Requires:       yast2-buildtools
 Requires:       yast2-devtools
 Requires:       yast2-fcoe-client
 # For creating the AutoYast profile at the end of installation (bnc#887406)
-Requires:       yast2-firewall
+Requires:       yast2-firewall >= 4.5.1
 # $os_release_version expansion in the <self_update_url> tag
 Requires:       yast2-installation >= 4.2.28
 Requires:       yast2-iscsi-client
