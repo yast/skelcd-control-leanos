@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Wed Jan 10 22:11:26 UTC 2024 - Josef Reidinger <jreidinger@suse.com>
+
+- Do not use dropped clone proposal leading to warning in logs
+  (bsc#1218700)
+- 15.6.2
+
+-------------------------------------------------------------------
 Mon Aug  7 09:07:13 UTC 2023 - Ladislav Slezák <lslezak@suse.com>
 
 - Update online medium product names to SLE15-SP6 (version 15.6)
