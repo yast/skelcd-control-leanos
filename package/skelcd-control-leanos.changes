@@ -1,4 +1,11 @@
 -------------------------------------------------------------------
+Tue Feb 13 12:35:48 UTC 2024 - Ladislav Slezák <lslezak@suse.com>
+
+- Removed SLE_HPC from the Online medium installation
+  (jsc#PED-7841)
+- 15.6.3
+
+-------------------------------------------------------------------
 Wed Jan 10 22:11:26 UTC 2024 - Josef Reidinger <jreidinger@suse.com>
 
 - Do not use dropped clone proposal leading to warning in logs
