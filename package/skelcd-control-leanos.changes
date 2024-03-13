@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Wed Mar 13 13:39:00 UTC 2024 - Ladislav Slezák <lslezak@suse.com>
+
+- Use a new fallback for the self-update URL (jsc#PED-4839)
+- 15.6.4
+
+-------------------------------------------------------------------
 Tue Feb 13 12:35:48 UTC 2024 - Ladislav Slezák <lslezak@suse.com>
 
 - Removed SLE_HPC from the Online medium installation
@@ -22,7 +28,7 @@ Mon Aug  7 09:07:13 UTC 2023 - Ladislav Slezák <lslezak@suse.com>
 -------------------------------------------------------------------
 Fri Mar 03 14:44:07 UTC 2023 - Ladislav Slezák <lslezak@suse.cz>
 
-- Bump version to 15.6.0 (bsc#1208913)
+- Branch package for SP6 (bsc#1208913)
 
 -------------------------------------------------------------------
 Tue Feb 28 10:36:43 UTC 2023 - Imobach Gonzalez Sosa <igonzalezsosa@suse.com>
