@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Wed Mar 13 13:39:00 UTC 2024 - Ladislav Slezák <lslezak@suse.com>
+
+- Use a new fallback for the self-update URL (jsc#PED-4839)
+- 15.6.4
+
+-------------------------------------------------------------------
 Tue Feb 13 12:35:48 UTC 2024 - Ladislav Slezák <lslezak@suse.com>
 
 - Removed SLE_HPC from the Online medium installation
