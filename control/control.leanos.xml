@@ -77,7 +77,7 @@ textdomain="control"
         <!-- self-update URL -->
         <!-- $os_release_version will be replaced by VERSION defined in /etc/os-release file (inst-sys). -->
         <!-- $arch will be replaced by the machine architecture. -->
-        <self_update_url>https://updates.suse.com/SUSE/Updates/SLE-INSTALLER/$os_release_version/$arch/update</self_update_url>
+        <self_update_url>https://installer-updates.suse.com/SUSE/Updates/SLE-INSTALLER/$os_release_version/$arch/update</self_update_url>
         <!-- self-update ID. SCC recognize for SLE15 ID SLES -->
         <self_update_id>SLES</self_update_id>
 
