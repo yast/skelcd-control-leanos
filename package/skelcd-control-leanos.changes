@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Mon Jul  8 12:10:36 UTC 2024 - Stefan Hundhammer <shundhammer@suse.com>
+
+- Disable installer self-update for QR media
+- 15.6.4.1
+
+-------------------------------------------------------------------
 Wed Mar 13 13:39:00 UTC 2024 - Ladislav Slezák <lslezak@suse.com>
 
 - Use a new fallback for the self-update URL (jsc#PED-4839)
