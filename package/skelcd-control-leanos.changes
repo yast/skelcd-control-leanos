@@ -1,4 +1,10 @@
 -------------------------------------------------------------------
+Tue Jul 16 15:40:22 UTC 2024 - Stefan Hundhammer <shundhammer@suse.com>
+
+- Branch package for SLE-15 SP7 (bsc#1227775)
+- 15.7.0
+
+-------------------------------------------------------------------
 Wed Mar 13 13:39:00 UTC 2024 - Ladislav Slezák <lslezak@suse.com>
 
 - Use a new fallback for the self-update URL (jsc#PED-4839)
