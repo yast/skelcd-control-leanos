@@ -1,4 +1,12 @@
 -------------------------------------------------------------------
+Mon Oct 30 09:14:16 UTC 2023 - Knut Anderssen <kanderssen@suse.com>
+
+- Add the security proposal to the autoyast overview and change the
+  security policy proposal order in order to be run  before the
+  software proposal (bsc#1216615)
+- 15.6.5
+
+-------------------------------------------------------------------
 Wed Mar 13 13:39:00 UTC 2024 - Ladislav Slezák <lslezak@suse.com>
 
 - Use a new fallback for the self-update URL (jsc#PED-4839)
