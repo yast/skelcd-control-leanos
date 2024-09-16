@@ -50,8 +50,8 @@ Requires:       yast2-add-on
 Requires:       yast2-buildtools
 Requires:       yast2-devtools
 Requires:       yast2-fcoe-client
-# For creating the AutoYast profile at the end of installation (bnc#887406)
-Requires:       yast2-firewall
+# Do not conflict autoinstallation and proposal firewall settings (bsc#1216615)
+Requires:       yast2-firewall >= 4.6.1
 # $os_release_version expansion in the <self_update_url> tag
 Requires:       yast2-installation >= 4.2.28
 Requires:       yast2-iscsi-client
@@ -77,8 +77,8 @@ Requires:       yast2-x11
 Requires:       rubygem(%{rb_default_ruby_abi}:byebug)
 # Install and enable xrdp by default (FATE#320363)
 Requires:       yast2-rdp
-# Support for security policies (jsc#SLE-24764)
-Requires:       yast2-security >= 4.5.5
+# Do a lazy initialization of security settings (bsc#1216615)
+Requires:       yast2-security >= 4.6.1
 
 # Architecture specific packages
 #
@@ -100,7 +100,7 @@ Requires:       sap-installation-wizard
 
 URL:            https://github.com/yast/skelcd-control-leanos
 AutoReqProv:    off
-Version:        15.6.4.1
+Version:        15.6.5.1
 Release:        0
 Summary:        Leanos control file needed for installation
 License:        MIT

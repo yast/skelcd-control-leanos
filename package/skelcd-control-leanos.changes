@@ -1,4 +1,12 @@
 -------------------------------------------------------------------
+Mon Sep 16 14:28:28 UTC 2024 - Knut Anderssen <kanderssen@suse.com>
+
+- Add the security proposal to the autoyast overview and change the
+  security policy proposal order in order to be run  before the
+  software proposal (bsc#1216615)
+- 15.6.5.1
+
+-------------------------------------------------------------------
 Mon Jul  8 12:10:36 UTC 2024 - Stefan Hundhammer <shundhammer@suse.com>
 
 - Disable installer self-update for QR media (bsc#1227503)
