@@ -1,5 +1,5 @@
 -------------------------------------------------------------------
-Mon Oct 30 09:14:16 UTC 2023 - Knut Anderssen <kanderssen@suse.com>
+Sun Oct 27 17:14:16 UTC 2024 - Knut Anderssen <kanderssen@suse.com>
 
 - Add the security proposal to the autoyast overview and change the
   security policy proposal order in order to be run  before the
